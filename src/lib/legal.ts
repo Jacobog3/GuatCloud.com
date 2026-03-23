@@ -25,27 +25,27 @@ const privacyEs: LegalSection[] = [
   {
     heading: "Responsable del tratamiento",
     paragraphs: [
-      `El responsable del tratamiento de los datos personales recogidos a través de este sitio es ${siteConfig.legalName}, con correo de contacto {{email}}. El sitio web está disponible en {{siteUrl}}.`
+      `El responsable del tratamiento de los datos personales recopilados a través de este sitio es ${siteConfig.legalName}, con correo de contacto {{email}}. El sitio web está disponible en {{siteUrl}}.`
     ]
   },
   {
     heading: "Datos que tratamos",
     paragraphs: [
-      "A través del formulario de contacto podemos recoger: nombre, correo electrónico, empresa (opcional), tipo de necesidad o servicio, y el mensaje que envíes.",
+      "A través del formulario de contacto podemos recopilar: nombre, correo electrónico, empresa (opcional), tipo de necesidad o servicio, y el mensaje que envíes.",
       "También se pueden registrar datos técnicos habituales en la conexión (por ejemplo dirección IP y datos del navegador) en los registros del servidor o de la plataforma de alojamiento, con fines de seguridad y diagnóstico."
     ]
   },
   {
     heading: "Finalidad y base legal",
     paragraphs: [
-      "Tratamos los datos del formulario para gestionar tu solicitud, responder a tu consulta y, en su caso, mantener comunicaciones relacionadas con un posible proyecto profesional.",
+      "Tratamos los datos del formulario para atender tu solicitud, responder a tu consulta y, en su caso, mantener comunicaciones relacionadas con un posible proyecto profesional.",
       "La base legal es tu consentimiento al enviar el formulario y, cuando proceda, la relación precontractual o contractual derivada de una consultoría."
     ]
   },
   {
     heading: "Conservación",
     paragraphs: [
-      "Conservamos los mensajes de contacto el tiempo necesario para atender la consulta y, si se inicia una relación comercial, durante la vigencia del encargo y los plazos legales aplicables. Transcurridos esos plazos, los datos se suprimen o anonimizan salvo obligación legal de conservación."
+      "Conservamos los mensajes de contacto el tiempo necesario para atender la consulta y, si se inicia una relación comercial, durante la vigencia del encargo y los plazos legales aplicables. Transcurridos esos plazos, los datos se eliminan o anonimizan salvo obligación legal de conservación."
     ]
   },
   {
@@ -233,7 +233,7 @@ export function getLegalMeta(locale: Locale, id: LegalPageId) {
     es: {
       privacy: {
         title: "Política de privacidad | GuatCloud",
-        description: `Cómo tratamos los datos personales cuando contactas con GuatCloud a través de ${host}.`
+        description: `Cómo tratamos los datos personales cuando te pones en contacto con GuatCloud a través de ${host}.`
       },
       terms: {
         title: "Términos de uso | GuatCloud",

@@ -174,22 +174,22 @@ export const dictionaries: Record<Locale, Dictionary> = {
       home: {
         title: "GuatCloud | Plataforma cloud, DevOps y MLOps",
         description:
-          "DevOps, MLOps, IaC y networking en nubes públicas. Patrones cloud-agnostic donde aportan; mayor profundidad hands-on en AWS (landing zones, Terraform, CI/CD)."
+          "DevOps, MLOps, infraestructura como código y redes en nube pública. Patrones multi‑nube donde aportan; mayor profundidad práctica en AWS (zonas de aterrizaje, Terraform, CI/CD)."
       },
       services: {
         title: "GuatCloud | Plataforma cloud, IaC y CI/CD",
         description:
-          "Implementación fuerte en plataforma, redes, Terraform y pipelines, cost/security hygiene y modernization. La mayor parte del delivery profundo hoy es en AWS; abrimos conversación si tu stack es otro."
+          "Implementación sólida en plataforma, redes, Terraform y pipelines, higiene de costos y seguridad, y modernización. La mayor parte del trabajo profundo hoy es en AWS; conversemos si tu entorno es otro."
       },
       about: {
         title: "Sobre GuatCloud",
         description:
-          "Shop cloud desde Guatemala: plataforma, automation y runbooks que tu equipo puede own. Pensamos vendor-neutral donde tiene sentido; el expertise más profundo está en AWS."
+          "Consultoría cloud desde Guatemala: plataforma, automatización y guías de operación que tu equipo puede mantener solo. Somos neutrales respecto al proveedor cuando aplica; donde más profundizamos hoy es en AWS."
       },
       contact: {
         title: "Contacto GuatCloud",
         description:
-          "Plataforma cloud, Terraform, CI/CD, ML/MLOps infra: comparte contexto (AWS u otra nube). Respondemos con fit honesto, prioridades y qué sería un buen outcome."
+          "Plataforma cloud, Terraform, CI/CD, infraestructura para ML/MLOps: cuéntanos tu contexto (AWS u otra nube). Respondemos con sinceridad sobre si encajamos, por dónde empezar y qué resultado razonable esperar."
       }
     },
     nav: {
@@ -206,44 +206,44 @@ export const dictionaries: Record<Locale, Dictionary> = {
       terms: "Términos"
     },
     home: {
-      eyebrow: "Cloud platform · IaC · CI/CD",
-      title: "Plataforma cloud que tu equipo puede correr cuando ya no estemos.",
+      eyebrow: "Plataforma cloud · IaC · CI/CD",
+      title: "Plataforma cloud que tu equipo puede operar cuando ya no estemos.",
       description:
-        "Diseñamos entornos, networking y delivery pipelines en nubes públicas para equipos que ya outgrowearon el duct tape. Menos sorpresas en prod, releases más limpias, tradeoffs claros. Donde más profundizamos hoy es AWS; el enfoque de arquitectura es cloud-agnostic donde tiene sentido.",
+        "Diseñamos entornos, redes y pipelines de entrega en nube pública para equipos que ya no pueden seguir a pura improvisación. Menos sorpresas en producción, publicaciones más ordenadas y decisiones con costos y riesgos claros. Donde más profundizamos hoy es AWS; el criterio de arquitectura sigue siendo multi‑nube cuando corresponde.",
       primaryCta: "Agendar consulta",
       secondaryCta: "Ver servicios",
       highlightsTitle: "Tiene sentido si",
       highlights: [
-        "Quieres arquitectura y automation alineadas a cómo tus engineers realmente shippean",
-        "Terraform y CI/CD tienen que seguir legibles a los seis meses, no solo el día uno",
-        "Necesitas respuestas directas en security, spend y reliability, no otro memo de “cloud strategy” genérico"
+        "Quieres arquitectura y automatización alineadas a cómo tus ingenieros publican en producción",
+        "Terraform y CI/CD tienen que seguir entendibles a los seis meses, no solo el primer día",
+        "Necesitas respuestas claras en seguridad, gasto y confiabilidad, no otro documento genérico de “estrategia cloud”"
       ],
-      heroCardLead: "Tres razones por las que nos meten en proyectos.",
-      valueEyebrow: "Cómo laburamos",
-      valueTitle: "Shipping a prod, no a un PDF.",
+      heroCardLead: "Tres razones por las que nos contratan en proyectos.",
+      valueEyebrow: "Cómo trabajamos",
+      valueTitle: "Cambios hasta producción, no hasta un PDF.",
       valueDescription:
-        "Estamos en accounts, VPCs, pipelines y lo que pasa en on-call: la capa que define si tus releases son boring en el buen sentido.",
+        "Trabajamos en cuentas, VPC, pipelines y lo que ocurre cuando hay guardia: la capa que define si tus publicaciones son predecibles (en el buen sentido).",
       valueItems: [
         {
-          title: "Cloud con chip de ops (deep en AWS)",
+          title: "Nube con mentalidad de operaciones (profundidad en AWS)",
           description:
-            "Landing zones, connectivity y servicios alineados a cómo se mueven app y datos, no solo a un diagrama bonito. La mayor parte de nuestro delivery hands-on hoy es AWS; los mismos principios aplican en otras nubes serias."
+            "Zonas de aterrizaje, conectividad y servicios alineados a cómo se mueven aplicaciones y datos, no solo a un diagrama bonito. La mayor parte de nuestro trabajo práctico hoy es en AWS; los mismos principios aplican en otras nubes serias."
         },
         {
-          title: "Automation que no te va a dar vergüenza",
+          title: "Automatización de la que no te vas a arrepentir",
           description:
-            "Terraform y CI/CD ordenados para que el próximo engineer los pueda tocar sin un archaeology project."
+            "Terraform y CI/CD ordenados para que el próximo ingeniero pueda cambiarlos sin tener que investigar durante semanas."
         },
         {
-          title: "Juicio técnico sin marketing speak",
+          title: "Criterio técnico sin discurso de marketing",
           description:
-            "Te dejamos claros los tradeoffs de costo, riesgo y velocity para que tus leads decidan con contexto y números."
+            "Te explicamos con claridad los equilibrios entre costo, riesgo y velocidad para que tus líderes decidan con contexto y números."
         }
       ],
       servicesEyebrow: "Servicios",
       servicesTitle: "Donde más metemos mano",
       servicesDescription:
-        "Alto impacto en platform glue, IaC y delivery automation; AWS es donde más horas metemos y donde está el catálogo más detallado. Abajo: security, FinOps, modernization, infra para ML y consulting AWS explícito.",
+        "Alto impacto en capa de plataforma, infraestructura como código y automatización de entregas; AWS es donde más horas invertimos y donde el catálogo es más detallado. Más abajo: seguridad, costos, modernización, infraestructura para ML y consultoría AWS explícita.",
       featuredServiceSlugs: [
         "aws-consulting",
         "devops-platform-engineering",
@@ -252,92 +252,92 @@ export const dictionaries: Record<Locale, Dictionary> = {
       ],
       servicesViewAllCta: "Ver catálogo de servicios",
       whyEyebrow: "Por qué GuatCloud",
-      whyTitle: "Senior engineers en el barro contigo.",
+      whyTitle: "Tres promesas simples.",
       whyDescription:
-        "Entramos a tu cloud org (en la práctica, mucho en AWS) con standards claros y artifacts tuyos: repos, modules, pipelines y docs que matchean la realidad.",
+        "Hacemos el trabajo técnico en tus cuentas y repositorios (hoy suele ser mucho AWS). Tu equipo puede reunirse en horario cercano al de EE. UU. y en inglés o español. Al cerrar el proyecto, puede seguir operando sin depender de nosotros.",
       processEyebrow: "Proceso",
-      processTitle: "Cómo se mueven los engagements",
+      processTitle: "Cómo avanzamos en cada proyecto",
       processDescription:
-        "Mapeamos estado actual, priorizamos por riesgo y leverage, buildamos con tus engineers en el loop, después estabilizamos y handoff.",
+        "Revisamos el estado actual, priorizamos por riesgo e impacto, implementamos con tus ingenieros al tanto, y al final estabilizamos y traspasamos responsabilidades.",
       finalEyebrow: "Siguiente paso",
-      finalTitle: "¿Le damos una vuelta a tu plataforma cloud?",
+      finalTitle: "¿Revisamos tu plataforma en la nube?",
       finalDescription:
-        "Cuéntanos qué está on fire, lento o undefined. Si el fit es mutuo, alineamos scope, sequencing y ownership antes de tocar prod.",
+        "Cuéntanos qué está fallando, qué va lento o qué aún no está definido. Si el encaje es mutuo, alineamos alcance, orden de trabajo y responsables antes de tocar producción.",
       finalPrimary: "Agendar consulta",
       finalSecondary: "Ver servicios",
-      capabilityStrip: "DevOps · MLOps · Networking",
+      capabilityStrip: "DevOps · MLOps · Redes",
       heroDiagram: {
-        band: "PLATFORM",
+        band: "PLATAFORMA",
         col1Title: "DEVOPS",
         col1Sub: "CI/CD · IaC",
         col2Title: "MLOPS",
-        col2Sub: "data · models",
-        col3Title: "NETWORK",
-        col3Sub: "VPC · hybrid"
+        col2Sub: "datos · modelos",
+        col3Title: "REDES",
+        col3Sub: "VPC · híbrido"
       }
     },
     servicesPage: {
       eyebrow: "Servicios",
-      title: "Infrastructure y delivery engineering en la nube.",
+      title: "Infraestructura e ingeniería de entrega en la nube.",
       description:
-        "Terraform, pipelines, networking y security baselines con bias fuerte a implementation. Pickeamos batallas que desbloquean shipping y bajan operational debt. AWS es nuestro expertise principal; hablamos si tu landing zone es otra nube.",
+        "Terraform, pipelines, redes y bases de seguridad con énfasis en implementación real. Elegimos prioridades que desbloquean publicaciones y reducen deuda operativa. AWS es nuestra especialidad principal; conversemos si tu entorno principal es otra nube.",
       sideTitle: "Qué optimizamos",
       sideDescription:
-        "La mayoría no necesita greenfield platform. Necesitan menos footguns en prod, environments claros y automation que alguien interno pueda own.",
-      catalogTitle: "Capability map",
+        "La mayoría no necesita una plataforma nueva desde cero. Necesita menos errores costosos en producción, entornos claros y automatización que alguien de tu equipo pueda mantener.",
+      catalogTitle: "Mapa de capacidades",
       catalogDescription:
-        "De accounts y connectivity a IaC, CI/CD, FinOps-style discipline y foundations listas para ML/MLOps: el technical work que evita que el cloud sea bottleneck. Oferta detallada orientada a AWS; mismo criterio aplicable en otras nubes donde encaje."
+        "De cuentas y conectividad a infraestructura como código, CI/CD, disciplina de costos y bases listas para ML/MLOps: el trabajo técnico que evita que la nube sea un cuello de botella. Detalle orientado a AWS; el mismo criterio aplica en otras nubes donde encaje."
     },
     aboutPage: {
       eyebrow: "Sobre nosotros",
-      title: "Buildamos. No nos quedamos en recommendations.",
+      title: "Implementamos. No nos quedamos solo en recomendaciones.",
       description:
-        "GuatCloud labura con equipos en nube pública que necesitan environments más claros, defaults más sanos y delivery tooling para la próxima etapa de growth. No nos casamos con un vendor en el discurso; el expertise más profundo hoy es AWS.",
-      storyTitle: "The practice",
+        "GuatCloud trabaja con equipos en nube pública que necesitan entornos más claros, configuraciones base más sanas y herramientas de entrega para la siguiente etapa de crecimiento. No nos amarramos a un proveedor en el discurso; donde más profundizamos hoy es en AWS.",
+      storyTitle: "Nuestra forma de trabajar",
       storyParagraphs: [
-        "Somos un shop chico y senior, no slide factory. El core son accounts en nube, network paths, Terraform, CI/CD y el operational detail que manda si tus releases quedan predictables (hoy la mayoría del tiempo es AWS).",
-        "HQ en Guatemala, remote en las Américas. Docs claros, tradeoffs explícitos y handoff pensado para que no dependas de un solo contractor para mantener uptime."
+        "Somos un equipo pequeño y senior, no una fábrica de diapositivas. Lo central son cuentas en la nube, rutas de red, Terraform, CI/CD y el detalle operativo que define si tus publicaciones son predecibles (hoy la mayor parte del tiempo es AWS).",
+        "Sede en Guatemala; trabajo remoto en las Américas. Documentación clara, pros y contras explícitos y traspaso pensado para que no dependas de un solo contratista para mantener el servicio arriba."
       ],
       principlesTitle: "Principios",
       principles: [
         {
-          title: "Engineering over theater",
+          title: "Ingeniería, no teatro",
           description:
-            "Advice tiene que ser buildable, testeable y supportable. Si no sobrevive prod, no lo shippeamos."
+            "El consejo tiene que poder construirse, probarse y mantenerse. Si no aguanta producción, no lo damos por entregado."
         },
         {
-          title: "No buzzword fog",
+          title: "Sin niebla de modas",
           description:
-            "Decimos tools, boundaries y riesgos con nombre. Architecture y scope tienen que ser entendibles por quien opera."
+            "Nombramos herramientas, límites y riesgos con claridad. La arquitectura y el alcance tienen que ser claros para quien opera el sistema."
         },
         {
-          title: "Sustainable después del ramp-down",
+          title: "Sostenible después de irnos",
           description:
-            "Platform y automation deberían dar velocity el próximo quarter, no un cleanup project al año siguiente."
+            "La plataforma y la automatización deberían dar velocidad el próximo trimestre, no un proyecto de limpieza al año siguiente."
         }
       ],
-      fitTitle: "Más leverage si",
+      fitTitle: "Encaja mejor si",
       fitItems: [
-        "Tu startup necesita senior AWS y platform help antes de hirear un platform org completo.",
-        "Tu SMB está modernizando cómo encajan cloud, deployments e infra ownership.",
-        "Tu product org necesita hardening, docs y alignment de la cloud layer con cómo shippean los engineers.",
-        "Estás en Guatemala o CA y quieres partner regional bilingüe con bar de ingeniería tipo top-tier remote team."
+        "Tu empresa necesita experiencia senior en AWS y plataforma antes de contratar un equipo de plataforma completo.",
+        "Tu negocio está ordenando cómo encajan la nube, los despliegues y quién es dueño de la infraestructura.",
+        "Tu área de producto necesita endurecimiento, documentación y alineación de la capa cloud con cómo publican los ingenieros.",
+        "Estás en Guatemala o Centroamérica y quieres un aliado regional bilingüe con el listón de ingeniería de un equipo remoto de primer nivel."
       ]
     },
     contactPage: {
       eyebrow: "Contacto",
-      title: "Cuéntanos qué está on fire, slow o todavía undefined.",
+      title: "Cuéntanos qué está fallando, qué va lento o qué falta por definir.",
       description:
-        "AWS, Terraform, CI/CD, platform engineering o infra ML/MLOps: comparte contexto y respondemos con fit honesto, rough sequencing y qué sería good.",
-      detailsTitle: "Direct lines",
+        "AWS, Terraform, CI/CD, ingeniería de plataforma o infraestructura para ML/MLOps: comparte contexto y te respondemos con sinceridad sobre encaje, orden aproximado de trabajo y un resultado razonable.",
+      detailsTitle: "Canales directos",
       detailsDescription:
-        "Form para first touch, o mail si ya tienes scope, SOW o RFP armado.",
+        "Formulario para el primer contacto, o correo si ya tienes alcance, propuesta o requisitos armados.",
       emailLabel: "Correo",
-      calendarLabel: "Scheduling",
-      calendarValue: "Coordinamos por mail; deja unas time windows en el mensaje.",
-      availabilityLabel: "Availability",
+      calendarLabel: "Agenda",
+      calendarValue: "Coordinamos por correo; indica en el mensaje algunas franjas horarias que te funcionen.",
+      availabilityLabel: "Disponibilidad",
       availabilityValue:
-        "Fixed-scope projects y ongoing support. Home TZ Guatemala (UTC-6), flexible para US y otras Americas hours."
+        "Proyectos de alcance fijo y acompañamiento continuo. Zona horaria base Guatemala (UTC-6), con flexibilidad para horarios de EE. UU. y otras Américas."
     },
     form: {
       name: "Nombre",
@@ -349,14 +349,14 @@ export const dictionaries: Record<Locale, Dictionary> = {
       placeholders: {
         name: "Tu nombre",
         email: "tu@empresa.com",
-        company: "Company o team",
+        company: "Empresa o equipo",
         service:
-          "ej. multi-account AWS, Terraform refactor, GitHub Actions, ML training pipelines...",
+          "ej. varias cuentas en AWS, refactor de Terraform, GitHub Actions, pipelines de entrenamiento de modelos...",
         message:
-          "Stack hoy, qué está broken o slow, timelines y cómo medirías success."
+          "Tecnologías actuales, qué falla o va lento, plazos y cómo medirías el éxito."
       },
       success: "Mensaje recibido. Te respondemos pronto.",
-      error: "Algo falló. Reintenta o escríbenos por mail.",
+      error: "Algo falló. Intenta de nuevo o escríbenos por correo.",
       acceptPrivacyBefore: "He leído la",
       privacyPolicyName: "política de privacidad",
       acceptPrivacyAfter: "y acepto el tratamiento de mis datos personales para que GuatCloud responda a esta consulta.",
@@ -370,54 +370,58 @@ export const dictionaries: Record<Locale, Dictionary> = {
     },
     footer: {
       focusLabel: "Qué hacemos",
-      coverageLabel: "Coverage",
+      coverageLabel: "Alcance",
       contactLabel: "Contacto",
       description:
-        "Platform engineering, Terraform, CI/CD y landing zones (fuerte en AWS) para equipos que quieren operar cloud con confianza.",
+        "Ingeniería de plataforma, Terraform, CI/CD y zonas de aterrizaje (con fuerte foco en AWS) para equipos que quieren operar la nube con confianza.",
       basedIn:
-        "Guatemala · Remote en Centroamérica y Norteamérica.",
-      responseTime: "Reply típico en ~1 business day."
+        "Guatemala · Remoto en Centroamérica y Norteamérica.",
+      responseTime: "Por lo general respondemos en ~1 día hábil."
     },
     process: [
       {
         step: "01",
-        title: "Discover",
-        description: "Map del cloud estate (mucho AWS hoy), pain points y qué es “better” para tu team."
+        title: "Descubrir",
+        description:
+          "Levantamos tu estado en la nube (hoy suele ser mucho AWS), dolores concretos y qué sería “mejor” para tu equipo."
       },
       {
         step: "02",
-        title: "Plan",
-        description: "Sequence por risk y leverage: qué fixea más con menos thrash."
+        title: "Planificar",
+        description:
+          "Ordenamos el trabajo por riesgo e impacto: qué corrige más con menos vaivén."
       },
       {
         step: "03",
-        title: "Ship",
-        description: "Build en tus repos y accounts, con reviews donde tus engineers participan."
+        title: "Implementar",
+        description:
+          "Implementamos en tus repositorios y cuentas, con revisiones donde participan tus ingenieros."
       },
       {
         step: "04",
-        title: "Stabilize",
-        description: "Harden, documentar y transferir ownership para que day-two ops sea boring on purpose."
+        title: "Estabilizar",
+        description:
+          "Endurecemos, documentamos y traspasamos responsabilidad para que el día a día en operaciones sea aburrido a propósito."
       }
     ],
     why: [
       {
         icon: Waypoints,
-        title: "Delivery, no decks",
+        title: "Construimos en tu código y en la nube, no solo aconsejamos",
         description:
-          "La semana vive en git, pipelines y console. Un recommendation sin owner en prod no es deliverable."
+          "Los cambios llegan como pull requests, pipelines y recursos reales. Si algo no tiene dueño claro en producción, no lo damos por terminado."
       },
       {
         icon: Network,
-        title: "Americas-friendly, sin bajar el bar",
+        title: "Reuniones en horario de EE. UU.; idioma el que prefiera el equipo",
         description:
-          "Base Ciudad de Guatemala; technical English o español; UTC-6 alinea con US business hours. Misma rigurosidad que un senior platform group."
+          "Estamos en Ciudad de Guatemala (UTC-6), así que suele encajar con equipos en Estados Unidos. El nivel de trabajo es el de consultoría senior en plataforma e infraestructura, no entregas genéricas."
       },
       {
         icon: Blocks,
-        title: "Handoffs que aguantan reality",
+        title: "Al terminar, tu equipo sabe mantener lo desplegado",
         description:
-          "Runbooks, IaC ownership patterns y knowledge transfer para que tus engineers sigan cuando hacemos ramp-down."
+          "Dejamos procedimientos por escrito, aclaramos quién es responsable de cada parte de la infraestructura automatizada y hacemos traspaso para que puedan operar solos el día siguiente."
       }
     ],
     services: [
@@ -425,97 +429,97 @@ export const dictionaries: Record<Locale, Dictionary> = {
         slug: "aws-consulting",
         icon: sharedServices.awsConsulting,
         partnerLabel: "AWS",
-        title: "AWS consulting",
+        title: "Consultoría AWS",
         description:
-          "Landing zones, connectivity y core services para AWS estates que tienen que scalear sin volverse tribal knowledge.",
+          "Zonas de aterrizaje, conectividad y servicios base para entornos AWS que tienen que crecer sin depender del conocimiento en la cabeza de una sola persona.",
         bullets: [
-          "Multi-account layout y patterns por environment",
-          "Networking, IAM y servicios base wired a tus workloads",
-          "Adoption y migrations con steps rollback-friendly"
+          "Diseño multi‑cuenta y patrones por entorno",
+          "Redes, IAM y servicios base conectados a tus cargas de trabajo",
+          "Adopción y migraciones con pasos que permiten retroceder si hace falta"
         ]
       },
       {
         slug: "devops-platform-engineering",
         icon: sharedServices.devopsPlatformEngineering,
-        title: "DevOps & platform engineering",
+        title: "DevOps e ingeniería de plataforma",
         description:
-          "Internal developer platforms y delivery rails que speed up shipping sin el fantasy del “platform team de diez personas”.",
+          "Plataformas para desarrolladores y canales de entrega que aceleran publicaciones sin el cuento del “equipo de plataforma de diez personas”.",
         bullets: [
-          "Deployment workflows, guardrails y golden paths que devs sí usan",
-          "Consistency dev / staging / prod sin drift por copy-paste",
-          "Shared tooling y standards para cloud delivery"
+          "Flujos de despliegue, límites sanos y caminos preferidos que los desarrolladores sí usan",
+          "Consistencia entre desarrollo, pruebas y producción sin copiar y pegar",
+          "Herramientas compartidas y estándares para entregar en la nube"
         ]
       },
       {
         slug: "infrastructure-as-code",
         icon: sharedServices.infrastructureAsCode,
-        title: "Infrastructure as code",
+        title: "Infraestructura como código",
         description:
-          "Terraform que lee como software: modules, state discipline y review flow para que infra changes sean boring y auditables.",
+          "Terraform que se lee como software: módulos, disciplina de estado y revisiones para que los cambios de infraestructura sean predecibles y auditables.",
         bullets: [
-          "Module layout, remote state, environment composition",
-          "Rescue o refactor de click-ops y one-off scripts",
-          "Governance via PR: quién aprueba qué y cómo atrapar drift antes de que duela"
+          "Estructura de módulos, estado remoto y composición por entorno",
+          "Rescate o refactor de operación a clics y scripts sueltos",
+          "Gobierno vía pull requests: quién aprueba qué y cómo detectar desvíos antes de que duela"
         ]
       },
       {
         slug: "cicd-automation",
         icon: sharedServices.cicdAutomation,
-        title: "CI/CD automation",
+        title: "Automatización CI/CD",
         description:
-          "Pipelines que hacen releases routine: fast feedback, safe promotions y rollback paths en los que el team confía.",
+          "Pipelines que vuelven rutinarias las publicaciones: retroalimentación rápida, promociones seguras y caminos de reversión en los que el equipo confía.",
         bullets: [
-          "Build / test / deploy pipelines tuned a tu stack",
-          "Release automation, canaries y rollback readiness",
-          "Hardening: secrets, least privilege, flaky test triage"
+          "Pipelines de compilación, prueba y despliegue ajustados a tus tecnologías",
+          "Automatización de publicaciones, despliegues canario y preparación para reversión",
+          "Endurecimiento: secretos, mínimo privilegio y manejo de pruebas inestables"
         ]
       },
       {
         slug: "cloud-security-foundations",
         icon: sharedServices.cloudSecurityFoundations,
-        title: "Cloud security foundations",
+        title: "Bases de seguridad en la nube",
         description:
-          "Baseline controls para teams que se mueven rápido: strong identity, observable config, menos sharp edges en prod.",
+          "Controles base para equipos que van rápido: identidad sólida, configuración observable y menos aristas filosas en producción.",
         bullets: [
-          "IAM layout, least privilege, access review periódico",
-          "Secrets, logging, configuration hygiene",
-          "Guardrails que achican blast radius sin bloquear delivery"
+          "Diseño de IAM, mínimo privilegio y revisiones periódicas de acceso",
+          "Secretos, registros e higiene de configuración",
+          "Límites que reducen el radio de daño sin frenar las entregas"
         ]
       },
       {
         slug: "cost-optimization",
         icon: sharedServices.costOptimization,
-        title: "Cost optimization",
+        title: "Optimización de costos",
         description:
-          "Spend visibility y tuning sin matar latency ni reliability por una línea linda en el bill.",
+          "Visibilidad del gasto y ajustes sin sacrificar latencia ni confiabilidad por una factura que solo se ve bonita en el papel.",
         bullets: [
-          "Usage y reservations review con engineering context",
-          "Right-sizing y cleanup de environments (no solo instances más chicas)",
-          "Budget signals alineados a cómo el team planea capacity"
+          "Revisión de uso y reservas con contexto de ingeniería",
+          "Tamaño adecuado y limpieza de entornos (no solo máquinas más pequeñas)",
+          "Señales de presupuesto alineadas a cómo el equipo planea capacidad"
         ]
       },
       {
         slug: "cloud-modernization",
         icon: sharedServices.cloudModernization,
-        title: "Cloud modernization",
+        title: "Modernización cloud",
         description:
-          "Incremental refactors para teams stuck en brittle patterns, manual runbooks o “deploy cuando alguien tiene huevos”.",
+          "Refactorizaciones graduales para equipos atrapados en patrones frágiles, guías manuales o despliegues que dependen de un héroe del momento.",
         bullets: [
-          "Untangle legacy environments y unclear ownership",
-          "Migration planning con cutover y validation realistas",
-          "Standardize ops para que on-call deje de ser hero sport"
+          "Ordenar entornos heredados y responsabilidades poco claras",
+          "Plan de migración con cortes y validaciones realistas",
+          "Operación más estándar para que la guardia deje de ser deporte de riesgo"
         ]
       },
       {
         slug: "ai-ready-infrastructure",
         icon: sharedServices.aiReadyInfrastructure,
-        title: "ML & MLOps infrastructure",
+        title: "Infraestructura para ML y MLOps",
         description:
-          "AWS foundations para data science y ML: secure data paths, repeatable training/deploy pipelines y serving stacks que tu platform team puede operar.",
+          "Bases en AWS para ciencia de datos y ML: rutas de datos seguras, pipelines repetibles de entrenamiento y despliegue, y servicio de modelos que tu equipo de plataforma puede operar.",
         bullets: [
-          "Network e IAM boundaries para data, notebooks, model artifacts",
-          "CI/CD patterns para training jobs, container images, model promotion",
-          "Hooks para experiment tracking, registries, inference endpoints sin mystery boxes"
+          "Límites de red e IAM para datos, notebooks y artefactos de modelos",
+          "Patrones de CI/CD para trabajos de entrenamiento, imágenes y promoción de modelos",
+          "Integración con seguimiento de experimentos, registros y endpoints de inferencia sin cajas negras"
         ]
       }
     ]
@@ -605,9 +609,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
       ],
       servicesViewAllCta: "See full service catalog",
       whyEyebrow: "Why GuatCloud",
-      whyTitle: "Senior engineers beside you in the weeds.",
+      whyTitle: "Three straightforward commitments.",
       whyDescription:
-        "We embed in your cloud org (in practice, often AWS) with explicit standards and artifacts your team owns: repos, modules, pipelines, and docs that match reality.",
+        "We do the hands-on work in your accounts and repositories (often AWS-heavy today). You can meet in hours that work for U.S. teams, in English or Spanish. When the engagement ends, your engineers can keep operating what we built without us.",
       processEyebrow: "Process",
       processTitle: "How engagements run",
       processDescription:
@@ -756,21 +760,21 @@ export const dictionaries: Record<Locale, Dictionary> = {
     why: [
       {
         icon: Waypoints,
-        title: "Delivery, not decks",
+        title: "We build in your repos and cloud, not just advise",
         description:
-          "Our week lives in git, pipelines, and the console. A recommendation with no owner in production is not a deliverable."
+          "Changes land as real pull requests, pipelines, and infrastructure. If nothing in production has a clear owner, we do not call the work done."
       },
       {
         icon: Network,
-        title: "Americas-friendly, no compromise on rigor",
+        title: "U.S.-friendly meeting hours; language your team prefers",
         description:
-          "Based in Guatemala City; fluent technical English or Spanish; UTC-6 lines up with U.S. business hours. Expect the same discipline you would from a senior platform group."
+          "We are in Guatemala City (UTC-6), which usually lines up with U.S. business hours. Expect senior platform and infrastructure consulting quality—not vague slide decks."
       },
       {
         icon: Blocks,
-        title: "Handoffs that survive contact with reality",
+        title: "When we leave, your team can run what we shipped",
         description:
-          "Runbooks, IaC ownership patterns, and knowledge transfer so your engineers are unblocked when we ramp down."
+          "We leave written runbooks, spell out who owns each part of the automated infrastructure, and transfer knowledge so you can operate on your own the next day."
       }
     ],
     services: [
