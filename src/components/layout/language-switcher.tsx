@@ -14,7 +14,7 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
 
   return (
     <div
-      className="inline-flex items-center rounded-full border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_92%,black_8%)] p-1 shadow-sm"
+      className="inline-flex h-10 items-center rounded-xl border border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-surface)_94%,black_6%)] p-1"
       aria-label={label}
     >
       {(["es", "en"] as const).map((entry) => (
@@ -22,9 +22,9 @@ export function LanguageSwitcher({ locale }: { locale: Locale }) {
           key={entry}
           href={entry === locale ? pathname : pathname.replace(`/${locale}`, `/${entry}`)}
           className={cn(
-            "rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition",
+            "inline-flex h-8 items-center rounded-lg px-3 text-[0.82rem] font-semibold uppercase tracking-[0.12em] transition",
             locale === entry
-              ? "bg-[var(--color-primary)] text-[var(--color-panel)]"
+              ? "bg-[color-mix(in_srgb,var(--color-primary)_16%,var(--color-surface))] text-[var(--color-foreground)]"
               : "text-[var(--color-muted-foreground)] hover:text-[var(--color-foreground)]"
           )}
           aria-label={entry === locale ? label : nextPath}

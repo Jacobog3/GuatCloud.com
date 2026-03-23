@@ -48,13 +48,13 @@ export default async function AboutPage({
 
           <Card variant="dark" className="panel-grid">
             <CardContent className="space-y-5 p-7 sm:p-8">
-              <span className="inline-flex rounded border border-[color-mix(in_srgb,var(--color-accent)_45%,white_22%)] bg-[color-mix(in_srgb,var(--color-accent)_10%,transparent)] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-[color-mix(in_srgb,white_92%,var(--color-accent))]">
+              <span className="inline-flex rounded-full border border-[color-mix(in_srgb,var(--color-primary)_30%,white_18%)] bg-[color-mix(in_srgb,var(--color-primary)_14%,transparent)] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[color-mix(in_srgb,white_92%,var(--color-primary))]">
                 {dictionary.aboutPage.fitTitle}
               </span>
               <ul className="text-body-sm space-y-4 text-[color-mix(in_srgb,white_76%,transparent)]">
                 {dictionary.aboutPage.fitItems.map((item) => (
                   <li key={item} className="flex gap-3">
-                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-accent)]" />
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-primary)]" />
                     <span>{item}</span>
                   </li>
                 ))}

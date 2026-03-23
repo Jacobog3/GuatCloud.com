@@ -16,7 +16,7 @@ export function PageHero({ eyebrow, title, description, children }: PageHeroProp
           <div className="pointer-events-none absolute -right-4 top-0 w-[min(100%,18rem)] opacity-25 sm:w-[22rem] sm:opacity-35">
             <HeroCloudVisual idPrefix="page-hero" />
           </div>
-          <div className="pointer-events-none absolute inset-x-0 top-0 h-36 bg-[radial-gradient(circle_at_50%_0%,color-mix(in_srgb,var(--color-accent)_12%,transparent),transparent_72%)]" />
+          <div className="pointer-events-none absolute inset-x-0 top-0 h-36 bg-[radial-gradient(circle_at_50%_0%,color-mix(in_srgb,var(--color-primary)_12%,transparent),transparent_72%)]" />
           <div className="relative grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,19rem)] lg:items-end">
             <div className="max-w-3xl space-y-5">
               <span className="eyebrow">{eyebrow}</span>

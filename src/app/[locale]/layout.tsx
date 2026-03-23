@@ -24,7 +24,7 @@ export default async function LocaleLayout({
   return (
     <div className="relative min-h-screen">
       <SetDocumentLang locale={locale} />
-      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[30rem] bg-[radial-gradient(ellipse_90%_55%_at_50%_-28%,color-mix(in_srgb,var(--color-accent)_11%,transparent),transparent_52%)]" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[30rem] bg-[radial-gradient(ellipse_90%_55%_at_50%_-28%,color-mix(in_srgb,var(--color-primary)_10%,transparent),transparent_52%)]" />
       <SiteHeader locale={locale} />
       <main>{children}</main>
       <SiteFooter locale={locale} />

@@ -35,7 +35,7 @@ export default async function ServicesPage({
       >
         <Card variant="dark" className="panel-grid">
           <CardContent className="space-y-4 p-6">
-            <span className="inline-flex rounded border border-[color-mix(in_srgb,var(--color-accent)_45%,white_22%)] bg-[color-mix(in_srgb,var(--color-accent)_10%,transparent)] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-[color-mix(in_srgb,white_92%,var(--color-accent))]">
+            <span className="inline-flex rounded-full border border-[color-mix(in_srgb,var(--color-primary)_30%,white_18%)] bg-[color-mix(in_srgb,var(--color-primary)_14%,transparent)] px-3 py-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-[color-mix(in_srgb,white_92%,var(--color-primary))]">
               {dictionary.servicesPage.eyebrow}
             </span>
             <h2 className="text-title text-white">{dictionary.servicesPage.sideTitle}</h2>

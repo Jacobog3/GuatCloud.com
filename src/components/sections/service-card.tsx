@@ -28,13 +28,13 @@ export function ServiceCard({
       variant="default"
       className={cn(
         "group h-full",
-        "hover:border-[color-mix(in_srgb,var(--color-accent)_28%,var(--color-border))]",
+        "hover:border-[color-mix(in_srgb,var(--color-primary)_24%,var(--color-border))]",
         "hover:shadow-[0_18px_40px_-32px_rgba(0,0,0,0.45)]"
       )}
     >
       <CardContent className="flex h-full flex-col gap-5">
         <div className="flex items-center gap-3">
-          <div className="icon-tile size-12 shrink-0 transition group-hover:border-[color-mix(in_srgb,var(--color-accent)_25%,var(--color-border))]">
+          <div className="icon-tile size-12 shrink-0 transition group-hover:border-[color-mix(in_srgb,var(--color-primary)_24%,var(--color-border))]">
             {useCustomGlyph ? (
               <ServiceGlyph slug={slug} className="text-[var(--color-primary-strong)]" />
             ) : (

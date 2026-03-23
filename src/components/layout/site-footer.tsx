@@ -24,65 +24,59 @@ export function SiteFooter({ locale }: { locale: Locale }) {
   return (
     <footer className="border-t border-[var(--color-border)] bg-[var(--color-surface)] pb-[max(3rem,env(safe-area-inset-bottom,0px))] pt-12">
       <Container className="space-y-10">
-        <div className="grid gap-10 lg:grid-cols-[minmax(0,1.2fr)_minmax(280px,0.8fr)] lg:items-start">
-          <div className="max-w-2xl space-y-4">
-            <BrandMark size="lg" />
-            <p className="text-body max-w-xl text-[var(--color-muted-foreground)]">
-              {dictionary.footer.description}
-            </p>
+        <div className="grid gap-10 lg:grid-cols-[minmax(220px,0.8fr)_minmax(160px,0.45fr)_minmax(220px,0.65fr)] lg:items-start">
+          <div className="space-y-4">
+            <BrandMark size="md" />
           </div>
-          <div className="grid gap-8 sm:grid-cols-2">
-            <div className="space-y-2">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--color-muted-foreground)]">
-                {dictionary.footer.coverageLabel}
-              </p>
-              <p className="text-body-sm max-w-xs text-[var(--color-muted-foreground)]">
-                {dictionary.footer.basedIn}
-              </p>
-            </div>
-            <div className="space-y-2">
-              <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--color-muted-foreground)]">
-                {dictionary.footer.contactLabel}
-              </p>
-              <a
-                href={`mailto:${siteConfig.email}`}
-                className="block text-body-sm font-medium text-[var(--color-foreground)] transition hover:text-[var(--color-primary-strong)]"
-              >
-                {siteConfig.email}
-              </a>
-              <p className="text-body-sm text-[var(--color-muted-foreground)]">
-                {dictionary.footer.responseTime}
-              </p>
-            </div>
+          <div className="space-y-3">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--color-muted-foreground)]">
+              {dictionary.footer.companyLabel}
+            </p>
+            <nav
+              className="flex flex-col gap-2 text-body-sm text-[var(--color-muted-foreground)]"
+              aria-label={dictionary.nav.mainNavigation}
+            >
+              {navKeys.map((item) => (
+                <Link
+                  key={item.href}
+                  href={localizedPath(locale, item.href)}
+                  className="transition hover:text-[var(--color-foreground)]"
+                >
+                  {dictionary.nav[item.key]}
+                </Link>
+              ))}
+            </nav>
+          </div>
+          <div className="space-y-3">
+            <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-[var(--color-muted-foreground)]">
+              {dictionary.footer.contactLabel}
+            </p>
+            <p className="text-body-sm max-w-xs text-[var(--color-muted-foreground)]">
+              {dictionary.footer.basedIn}
+            </p>
+            <a
+              href={`mailto:${siteConfig.email}`}
+              className="block text-body-sm font-medium text-[var(--color-foreground)] transition hover:text-[var(--color-primary-strong)]"
+            >
+              {siteConfig.email}
+            </a>
           </div>
         </div>
-        <div className="flex flex-col gap-4 border-t border-[var(--color-border)]/70 pt-6 md:flex-row md:items-center md:justify-between">
-          <nav
-            className="text-body-sm flex flex-wrap gap-x-4 gap-y-2 text-[var(--color-muted-foreground)]"
-            aria-label={dictionary.nav.mainNavigation}
-          >
-            {navKeys.map((item) => (
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 border-t border-[var(--color-border)]/70 pt-6 text-body-sm text-[var(--color-muted-foreground)]">
+          <span>© {new Date().getFullYear()} {siteConfig.brandDisplay}</span>
+          {legalKeys.map((item) => (
+            <div key={item.href} className="inline-flex items-center gap-3">
+              <span aria-hidden className="text-[var(--color-border-strong)]">
+                /
+              </span>
               <Link
-                key={item.href}
                 href={localizedPath(locale, item.href)}
                 className="hover:text-[var(--color-foreground)]"
               >
                 {dictionary.nav[item.key]}
               </Link>
-            ))}
-            {legalKeys.map((item) => (
-              <Link
-                key={item.href}
-                href={localizedPath(locale, item.href)}
-                className="hover:text-[var(--color-foreground)]"
-              >
-                {dictionary.nav[item.key]}
-              </Link>
-            ))}
-          </nav>
-          <p className="text-body-sm shrink-0 text-[var(--color-muted-foreground)]">
-            © {new Date().getFullYear()} {siteConfig.brandDisplay}
-          </p>
+            </div>
+          ))}
         </div>
       </Container>
     </footer>

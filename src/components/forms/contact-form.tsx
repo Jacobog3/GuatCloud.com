@@ -128,7 +128,7 @@ export function ContactForm({ locale }: { locale: Locale }) {
               <input
                 id="acceptPrivacy"
                 type="checkbox"
-                className="mt-1 h-4 w-4 shrink-0 rounded border-[var(--color-border)] text-[var(--color-primary)] focus:ring-[var(--color-accent)]/40"
+                className="mt-1 h-4 w-4 shrink-0 rounded border-[var(--color-border)] text-[var(--color-primary)] focus:ring-[var(--color-primary)]/30"
                 checked={form.watch("acceptPrivacy")}
                 onChange={(e) =>
                   form.setValue("acceptPrivacy", e.target.checked, {

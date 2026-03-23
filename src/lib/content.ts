@@ -143,11 +143,9 @@ type Dictionary = {
     termsTitle: string;
   };
   footer: {
-    coverageLabel: string;
+    companyLabel: string;
     contactLabel: string;
-    description: string;
     basedIn: string;
-    responseTime: string;
   };
   process: Array<{ step: string; title: string; description: string }>;
   why: Array<{ icon: LucideIcon; title: string; description: string }>;
@@ -194,9 +192,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
     nav: {
       home: "Inicio",
       services: "Servicios",
-      about: "Enfoque",
+      about: "Nosotros",
       contact: "Contacto",
-      consultation: "Hablemos",
+      consultation: "Agendar consulta",
       switchLanguage: "Cambiar idioma",
       openMenu: "Abrir menú de navegación",
       closeMenu: "Cerrar menú de navegación",
@@ -209,7 +207,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       title: "Infraestructura cloud más clara, estable y operable.",
       description:
         "GuatCloud ayuda a startups, pymes y equipos de producto a diseñar, desplegar, asegurar y mejorar entornos cloud con trabajo real en infraestructura, automatización y operación.",
-      primaryCta: "Hablemos",
+      primaryCta: "Agendar consulta",
       secondaryCta: "Explorar servicios",
       highlightsTitle: "Encaja mejor si",
       highlights: [
@@ -250,7 +248,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "cicd-automation"
       ],
       servicesViewAllCta: "Ver todos los servicios",
-      whyEyebrow: "Enfoque",
+      whyEyebrow: "Por qué GuatCloud",
       whyTitle: "De una nube frágil a una base que el equipo puede operar mejor.",
       whyDescription:
         "GuatCloud combina trabajo hands-on en infraestructura, automatización y operación con profundidad real en AWS cuando el entorno lo requiere.",
@@ -262,7 +260,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       finalTitle: "¿Revisamos qué necesita hoy tu infraestructura cloud?",
       finalDescription:
         "Si hoy hay fricción en accesos, Terraform, CI/CD, despliegues, costos o bases cloud, conversemos. Revisamos contexto, prioridades y el siguiente paso técnico más razonable.",
-      finalPrimary: "Hablemos",
+      finalPrimary: "Agendar consulta",
       finalSecondary: "Explorar servicios",
       capabilityStrip: "Cloud foundations · Terraform · Delivery systems",
       heroDiagram: {
@@ -288,7 +286,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "De AWS Organizations y Control Tower a Terraform, CI/CD, IAM, VPC, ECS, EKS, Lambda e incorporación de cuentas: trabajo técnico que evita que la nube se vuelva un cuello de botella."
     },
     aboutPage: {
-      eyebrow: "Enfoque",
+      eyebrow: "Nosotros",
       title: "Una firma boutique de infraestructura cloud y DevOps con profundidad real en AWS.",
       description:
         "GuatCloud es una consultora fundada por Jacobo Gonzalez para ayudar a equipos que necesitan ejecutar mejor en cloud, con especialidad fuerte en AWS y foco total en implementación.",
@@ -368,13 +366,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
       termsTitle: "Términos de uso"
     },
     footer: {
-      coverageLabel: "Cobertura",
+      companyLabel: "Compañía",
       contactLabel: "Contacto",
-      description:
-        "Infraestructura cloud, Terraform, CI/CD y bases seguras para equipos que necesitan operar con más orden, estabilidad y criterio técnico.",
-      basedIn:
-        "Guatemala · Trabajo remoto con equipos en Centroamérica y Norteamérica.",
-      responseTime: "Respuesta habitual: ~1 día hábil."
+      basedIn: "Guatemala · Remoto para Centroamérica y Norteamérica."
     },
     process: [
       {
@@ -550,9 +544,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
     nav: {
       home: "Home",
       services: "Services",
-      about: "Approach",
+      about: "About",
       contact: "Contact",
-      consultation: "Let's talk",
+      consultation: "Book a consultation",
       switchLanguage: "Switch language",
       openMenu: "Open navigation menu",
       closeMenu: "Close navigation menu",
@@ -565,7 +559,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       title: "Clearer, more stable cloud infrastructure for growing teams.",
       description:
         "GuatCloud helps startups, SMBs, and product teams design, ship, secure, and improve cloud environments through real work in infrastructure, automation, and operations.",
-      primaryCta: "Let's talk",
+      primaryCta: "Book a consultation",
       secondaryCta: "Explore services",
       highlightsTitle: "Best fit when",
       highlights: [
@@ -606,7 +600,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "cicd-automation"
       ],
       servicesViewAllCta: "View all services",
-      whyEyebrow: "Approach",
+      whyEyebrow: "Why GuatCloud",
       whyTitle: "From fragile cloud setups to environments your team can run with confidence.",
       whyDescription:
         "GuatCloud combines hands-on infrastructure, automation, and operations work with deep AWS experience where the environment calls for it.",
@@ -618,7 +612,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       finalTitle: "Ready to review what your cloud environment needs now?",
       finalDescription:
         "If access, Terraform, CI/CD, deployments, cost, or core cloud foundations are creating friction, let’s talk. We can review context, priorities, and the next sensible technical step.",
-      finalPrimary: "Let's talk",
+      finalPrimary: "Book a consultation",
       finalSecondary: "Explore services",
       capabilityStrip: "Cloud foundations · Terraform · Delivery systems",
       heroDiagram: {
@@ -644,7 +638,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "From AWS Organizations and Control Tower to Terraform, CI/CD, IAM, VPC design, ECS, EKS, Lambda, and account onboarding: the technical work that keeps cloud from becoming a bottleneck."
     },
     aboutPage: {
-      eyebrow: "Approach",
+      eyebrow: "About",
       title: "A boutique cloud infrastructure and DevOps firm with real AWS depth.",
       description:
         "GuatCloud was created by Jacobo Gonzalez to help teams execute better in cloud environments, with deep AWS specialization and a strong implementation bias.",
@@ -725,12 +719,9 @@ export const dictionaries: Record<Locale, Dictionary> = {
       termsTitle: "Terms of Use"
     },
     footer: {
-      coverageLabel: "Coverage",
+      companyLabel: "Company",
       contactLabel: "Contact",
-      description:
-        "Cloud infrastructure, Terraform, CI/CD, and secure foundations for teams that need to operate with more clarity, stability, and technical judgment.",
-      basedIn: "Guatemala · Remote with teams across Central and North America.",
-      responseTime: "Typical response time: about one business day."
+      basedIn: "Guatemala · Remote across Central and North America."
     },
     process: [
       {

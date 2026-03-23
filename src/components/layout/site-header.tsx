@@ -21,7 +21,7 @@ const navKeys = [
 ] as const;
 
 const linkFocus =
-  "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-accent)]/50 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-background)]";
+  "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--color-primary)]/35 focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--color-background)]";
 
 export function SiteHeader({ locale }: { locale: Locale }) {
   const pathname = usePathname();
@@ -38,8 +38,8 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-background)_94%,var(--color-surface)_6%)]/95 pt-[env(safe-area-inset-top,0px)] backdrop-blur-md">
-      <Container className="flex min-h-[4.25rem] items-center justify-between gap-6">
+    <header className="sticky top-0 z-50 border-b border-[var(--color-border)] bg-[color-mix(in_srgb,var(--color-background)_95%,var(--color-surface)_5%)]/95 pt-[env(safe-area-inset-top,0px)] backdrop-blur-md">
+      <Container className="flex min-h-[4.5rem] items-center justify-between gap-6">
         <Link
           href={localizedPath(locale, "/")}
           aria-label="GuatCloud home"
@@ -49,7 +49,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         </Link>
 
         <nav
-          className="hidden h-[4.25rem] items-stretch gap-0 lg:flex"
+          className="hidden h-[4.5rem] items-stretch gap-0 lg:flex"
           aria-label={dictionary.nav.mainNavigation}
         >
           {navKeys.map((item) => {
@@ -61,7 +61,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
                 key={item.href}
                 href={href}
                 className={cn(
-                  "group relative inline-flex h-full items-center px-4 text-sm font-medium transition-colors",
+                  "text-body-sm group relative inline-flex h-full items-center px-4 font-medium tracking-[-0.01em] transition-colors",
                   linkFocus,
                   active
                     ? "text-[var(--color-foreground)]"
@@ -83,7 +83,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
 
         <div className="hidden items-center gap-3 lg:flex">
           <LanguageSwitcher locale={locale} />
-          <Button asChild size="sm">
+          <Button asChild variant="nav" size="sm" className="min-w-[10.75rem]">
             <Link href={localizedPath(locale, "/contact")} className={linkFocus}>
               {dictionary.nav.consultation}
             </Link>
@@ -122,7 +122,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
                     href={href}
                     onClick={() => setOpen(false)}
                     className={cn(
-                      "rounded-lg px-4 py-3 text-sm font-medium transition",
+                      "text-body-sm rounded-lg px-4 py-3 font-medium tracking-[-0.01em] transition",
                       linkFocus,
                       active
                         ? "bg-[var(--color-surface)] text-[var(--color-foreground)] ring-1 ring-[var(--color-border)]"
@@ -136,7 +136,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
             </nav>
             <div className="flex items-center justify-between gap-3 border-t border-[var(--color-border)] pt-4">
               <LanguageSwitcher locale={locale} />
-              <Button asChild size="sm">
+              <Button asChild variant="nav" size="sm" className="min-w-[10.75rem]">
                 <Link href={localizedPath(locale, "/contact")} onClick={() => setOpen(false)} className={linkFocus}>
                   {dictionary.nav.consultation}
                 </Link>

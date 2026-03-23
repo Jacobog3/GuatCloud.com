@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
 import { HeroPlatformVisual } from "@/components/brand/hero-platform-visual";
 import { Container } from "@/components/shared/container";
 import { SectionHeading } from "@/components/shared/section-heading";
@@ -52,7 +51,6 @@ export default async function HomePage({
                 <Button asChild size="lg" className="w-full sm:w-auto">
                   <Link className="justify-center" href={localizedPath(safeLocale, "/contact")}>
                     {dictionary.home.primaryCta}
-                    <ArrowRight className="h-4 w-4" />
                   </Link>
                 </Button>
                 <Button asChild variant="secondary" size="lg" className="w-full sm:w-auto">
@@ -71,7 +69,7 @@ export default async function HomePage({
           <div className="mx-auto mt-14 grid max-w-4xl grid-cols-1 gap-px overflow-hidden rounded-lg border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-3 animate-fade-in">
             {dictionary.home.highlights.map((item) => (
               <div key={item} className="flex gap-3 bg-[var(--color-surface)] p-5">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-accent)]" />
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--color-primary)]" />
                 <p className="text-body-sm text-[var(--color-muted-foreground)]">{item}</p>
               </div>
             ))}
@@ -89,7 +87,7 @@ export default async function HomePage({
           <div className="grid gap-10 md:grid-cols-3">
             {dictionary.home.valueItems.map((item, index) => (
               <div key={item.title} className="space-y-3">
-                <span className="text-3xl font-bold tabular-nums text-[color-mix(in_srgb,var(--color-accent)_45%,var(--color-muted-foreground))]">
+                <span className="text-3xl font-bold tabular-nums text-[color-mix(in_srgb,var(--color-primary)_46%,var(--color-muted-foreground))]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <h3 className="text-title text-[var(--color-foreground)]">
@@ -125,7 +123,6 @@ export default async function HomePage({
             <Button asChild variant="secondary" size="lg" className="w-full max-w-md sm:w-auto sm:max-w-none">
               <Link className="justify-center" href={localizedPath(safeLocale, "/services")}>
                 {dictionary.home.servicesViewAllCta}
-                <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
           </div>
@@ -176,14 +173,14 @@ export default async function HomePage({
           <div className="relative">
             <div className="pointer-events-none absolute inset-x-0 top-[18px] hidden h-px bg-gradient-to-r from-transparent via-[var(--color-border)] to-transparent lg:block" />
             <div
-              className="pointer-events-none absolute left-[18px] z-0 hidden w-px max-sm:block bg-gradient-to-b from-[var(--color-accent)]/20 via-[var(--color-border)] to-[var(--color-accent)]/20"
+              className="pointer-events-none absolute left-[18px] z-0 hidden w-px max-sm:block bg-gradient-to-b from-[var(--color-primary)]/18 via-[var(--color-border)] to-[var(--color-primary)]/18"
               style={{ top: "1.125rem", bottom: "1.125rem" }}
               aria-hidden
             />
             <div className="relative z-[1] grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {dictionary.process.map((item) => (
                 <div key={item.step} className="relative space-y-4">
-                  <span className="relative z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-[color-mix(in_srgb,var(--color-accent)_35%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-accent)_10%,var(--color-surface))] text-sm font-bold tabular-nums text-[color-mix(in_srgb,var(--color-accent)_90%,white)]">
+                  <span className="relative z-10 inline-flex h-9 w-9 items-center justify-center rounded-full border border-[color-mix(in_srgb,var(--color-primary)_32%,var(--color-border))] bg-[color-mix(in_srgb,var(--color-primary)_10%,var(--color-surface))] text-sm font-bold tabular-nums text-[color-mix(in_srgb,var(--color-primary)_84%,white)]">
                     {item.step}
                   </span>
                   <h3 className="text-title text-[var(--color-foreground)]">
@@ -204,7 +201,7 @@ export default async function HomePage({
             <div className="pointer-events-none absolute -left-12 bottom-0 h-40 w-40 rounded-full bg-[var(--color-primary)]/10 blur-3xl" />
             <CardContent className="relative grid gap-8 p-8 sm:p-10 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-center">
               <div className="space-y-4">
-                <span className="eyebrow border-[color-mix(in_srgb,white_18%,transparent)] bg-[color-mix(in_srgb,white_8%,transparent)] text-[color-mix(in_srgb,white_88%,var(--color-accent))]">
+                <span className="eyebrow border-[color-mix(in_srgb,white_16%,transparent)] bg-[color-mix(in_srgb,var(--color-primary)_14%,transparent)] text-[color-mix(in_srgb,white_90%,var(--color-primary))]">
                   {dictionary.home.finalEyebrow}
                 </span>
                 <h2 className="text-display-sm max-w-xl text-white">{dictionary.home.finalTitle}</h2>
@@ -216,7 +213,6 @@ export default async function HomePage({
                 <Button asChild size="lg" className="w-full sm:w-auto lg:w-full">
                   <Link className="justify-center" href={localizedPath(safeLocale, "/contact")}>
                     {dictionary.home.finalPrimary}
-                    <ArrowRight className="h-4 w-4" />
                   </Link>
                 </Button>
                 <Button asChild variant="outlineLight" size="lg" className="w-full sm:w-auto lg:w-full">
