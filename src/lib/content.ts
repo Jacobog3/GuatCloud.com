@@ -169,33 +169,33 @@ const sharedServices = {
 export const dictionaries: Record<Locale, Dictionary> = {
   es: {
     localeLabel: "ES",
-    brandTagline: "Platform · DevOps · MLOps",
+    brandTagline: "AWS · Terraform · CI/CD",
     meta: {
       home: {
-        title: "GuatCloud | Plataforma cloud, DevOps y MLOps",
+        title: "GuatCloud | AWS, Terraform y CI/CD para equipos en crecimiento",
         description:
-          "DevOps, MLOps, infraestructura como código y redes en nube pública. Patrones multi‑nube donde aportan; mayor profundidad práctica en AWS (zonas de aterrizaje, Terraform, CI/CD)."
+          "Consultoria AWS y DevOps para equipos que necesitan entornos multi-account, Terraform, CI/CD y bases seguras que si funcionen en produccion."
       },
       services: {
-        title: "GuatCloud | Plataforma cloud, IaC y CI/CD",
+        title: "GuatCloud | Servicios de AWS, Terraform y CI/CD",
         description:
-          "Implementación sólida en plataforma, redes, Terraform y pipelines, higiene de costos y seguridad, y modernización. La mayor parte del trabajo profundo hoy es en AWS; conversemos si tu entorno es otro."
+          "AWS, Terraform, CI/CD, seguridad cloud y modernizacion con foco en implementacion real dentro de cuentas, repositorios y pipelines."
       },
       about: {
         title: "Sobre GuatCloud",
         description:
-          "Consultoría cloud desde Guatemala: plataforma, automatización y guías de operación que tu equipo puede mantener solo. Somos neutrales respecto al proveedor cuando aplica; donde más profundizamos hoy es en AWS."
+          "Firma boutique de AWS y DevOps enfocada en implementacion, automatizacion y entornos cloud que tu equipo puede operar sin depender de terceros."
       },
       contact: {
         title: "Contacto GuatCloud",
         description:
-          "Plataforma cloud, Terraform, CI/CD, infraestructura para ML/MLOps: cuéntanos tu contexto (AWS u otra nube). Respondemos con sinceridad sobre si encajamos, por dónde empezar y qué resultado razonable esperar."
+          "Conversemos sobre AWS, Terraform, CI/CD, seguridad cloud, modernizacion o infraestructura lista para IA."
       }
     },
     nav: {
       home: "Inicio",
       services: "Servicios",
-      about: "Sobre nosotros",
+      about: "Enfoque",
       contact: "Contacto",
       consultation: "Agendar consulta",
       switchLanguage: "Cambiar idioma",
@@ -206,44 +206,44 @@ export const dictionaries: Record<Locale, Dictionary> = {
       terms: "Términos"
     },
     home: {
-      eyebrow: "Plataforma cloud · IaC · CI/CD",
-      title: "Plataforma cloud que tu equipo puede operar cuando ya no estemos.",
+      eyebrow: "AWS · Terraform · CI/CD",
+      title: "Infraestructura AWS bien construida para equipos en crecimiento.",
       description:
-        "Diseñamos entornos, redes y pipelines de entrega en nube pública para equipos que ya no pueden seguir a pura improvisación. Menos sorpresas en producción, publicaciones más ordenadas y decisiones con costos y riesgos claros. Donde más profundizamos hoy es AWS; el criterio de arquitectura sigue siendo multi‑nube cuando corresponde.",
+        "GuatCloud ayuda a startups, pymes y equipos de producto a diseñar, automatizar, asegurar y mejorar entornos AWS con trabajo real en cuentas, Terraform y pipelines de entrega.",
       primaryCta: "Agendar consulta",
       secondaryCta: "Ver servicios",
-      highlightsTitle: "Tiene sentido si",
+      highlightsTitle: "Encaja mejor si",
       highlights: [
-        "Quieres arquitectura y automatización alineadas a cómo tus ingenieros publican en producción",
-        "Terraform y CI/CD tienen que seguir entendibles a los seis meses, no solo el primer día",
-        "Necesitas respuestas claras en seguridad, gasto y confiabilidad, no otro documento genérico de “estrategia cloud”"
+        "Tu AWS ya necesita mejor estructura entre cuentas, accesos, entornos y despliegues",
+        "Terraform, CI/CD y automatizacion existen, pero hoy son fragiles o dificiles de mantener",
+        "Buscas ayuda tecnica que implemente dentro de tu entorno, no solo recomendaciones"
       ],
       heroCardLead: "Tres razones por las que nos contratan en proyectos.",
       valueEyebrow: "Cómo trabajamos",
-      valueTitle: "Cambios hasta producción, no hasta un PDF.",
+      valueTitle: "Implementacion real en cuentas, repositorios y pipelines.",
       valueDescription:
-        "Trabajamos en cuentas, VPC, pipelines y lo que ocurre cuando hay guardia: la capa que define si tus publicaciones son predecibles (en el buen sentido).",
+        "Trabajamos sobre la base que mas impacta la operacion diaria: AWS Organizations, Control Tower, Terraform, IAM, redes, CI/CD y un handoff tecnico claro.",
       valueItems: [
         {
-          title: "Nube con mentalidad de operaciones (profundidad en AWS)",
+          title: "AWS multi-account y bases cloud",
           description:
-            "Zonas de aterrizaje, conectividad y servicios alineados a cómo se mueven aplicaciones y datos, no solo a un diagrama bonito. La mayor parte de nuestro trabajo práctico hoy es en AWS; los mismos principios aplican en otras nubes serias."
+            "Disenamos cuentas, incorporacion de nuevas cuentas, guardrails, redes y accesos para que AWS crezca con estructura, no con excepciones manuales."
         },
         {
-          title: "Automatización de la que no te vas a arrepentir",
+          title: "Terraform y entrega mantenible",
           description:
-            "Terraform y CI/CD ordenados para que el próximo ingeniero pueda cambiarlos sin tener que investigar durante semanas."
+            "Construimos modulos reutilizables, pipelines y flujos de despliegue que el equipo pueda seguir operando despues."
         },
         {
-          title: "Criterio técnico sin discurso de marketing",
+          title: "Seguridad y operacion con criterio",
           description:
-            "Te explicamos con claridad los equilibrios entre costo, riesgo y velocidad para que tus líderes decidan con contexto y números."
+            "Aterrizamos IAM, OIDC, accesos cross-account, costos y mejoras operativas con decisiones claras, no con teoria vaga."
         }
       ],
       servicesEyebrow: "Servicios",
-      servicesTitle: "Donde más metemos mano",
+      servicesTitle: "Capacidades principales",
       servicesDescription:
-        "Alto impacto en capa de plataforma, infraestructura como código y automatización de entregas; AWS es donde más horas invertimos y donde el catálogo es más detallado. Más abajo: seguridad, costos, modernización, infraestructura para ML y consultoría AWS explícita.",
+        "AWS, Terraform, CI/CD, seguridad cloud, modernizacion y entornos listos para IA, con foco en implementacion practica.",
       featuredServiceSlugs: [
         "aws-consulting",
         "devops-platform-engineering",
@@ -251,52 +251,52 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "cicd-automation"
       ],
       servicesViewAllCta: "Ver catálogo de servicios",
-      whyEyebrow: "Por qué GuatCloud",
-      whyTitle: "Tres promesas simples.",
+      whyEyebrow: "Enfoque",
+      whyTitle: "Experiencia practica en la capa que sostiene produccion.",
       whyDescription:
-        "Hacemos el trabajo técnico en tus cuentas y repositorios (hoy suele ser mucho AWS). Tu equipo puede reunirse en horario cercano al de EE. UU. y en inglés o español. Al cerrar el proyecto, puede seguir operando sin depender de nosotros.",
+        "GuatCloud esta construido alrededor de trabajo real en AWS y DevOps: multi-account, Terraform, redes, CI/CD, seguridad base, modernizacion y operacion.",
       processEyebrow: "Proceso",
       processTitle: "Cómo avanzamos en cada proyecto",
       processDescription:
-        "Revisamos el estado actual, priorizamos por riesgo e impacto, implementamos con tus ingenieros al tanto, y al final estabilizamos y traspasamos responsabilidades.",
+        "Empezamos por entender el entorno actual, priorizamos lo critico, implementamos dentro de tu stack y cerramos con estabilizacion y traspaso.",
       finalEyebrow: "Siguiente paso",
-      finalTitle: "¿Revisamos tu plataforma en la nube?",
+      finalTitle: "¿Revisamos que necesita hoy tu infraestructura AWS?",
       finalDescription:
-        "Cuéntanos qué está fallando, qué va lento o qué aún no está definido. Si el encaje es mutuo, alineamos alcance, orden de trabajo y responsables antes de tocar producción.",
+        "Si hoy hay friccion en cuentas, IAM, Terraform, CI/CD, despliegues o seguridad cloud, conversemos. Revisamos contexto, prioridades y el siguiente paso tecnico mas razonable.",
       finalPrimary: "Agendar consulta",
       finalSecondary: "Ver servicios",
-      capabilityStrip: "DevOps · MLOps · Redes",
+      capabilityStrip: "AWS foundations · Terraform · Delivery systems",
       heroDiagram: {
-        band: "PLATAFORMA",
-        col1Title: "DEVOPS",
-        col1Sub: "CI/CD · IaC",
-        col2Title: "MLOPS",
-        col2Sub: "datos · modelos",
-        col3Title: "REDES",
-        col3Sub: "VPC · híbrido"
+        band: "BASE CLOUD",
+        col1Title: "AWS",
+        col1Sub: "cuentas · IAM",
+        col2Title: "IAC",
+        col2Sub: "Terraform · modulos",
+        col3Title: "CI/CD",
+        col3Sub: "build · deploy"
       }
     },
     servicesPage: {
       eyebrow: "Servicios",
-      title: "Infraestructura e ingeniería de entrega en la nube.",
+      title: "Servicios de AWS y DevOps para equipos que necesitan una base cloud mas seria.",
       description:
-        "Terraform, pipelines, redes y bases de seguridad con énfasis en implementación real. Elegimos prioridades que desbloquean publicaciones y reducen deuda operativa. AWS es nuestra especialidad principal; conversemos si tu entorno principal es otra nube.",
-      sideTitle: "Qué optimizamos",
+        "GuatCloud trabaja en cuentas AWS, Terraform, pipelines, seguridad, costos y modernizacion con foco en implementacion real y mejoras que se sostienen.",
+      sideTitle: "Qué resolvemos",
       sideDescription:
-        "La mayoría no necesita una plataforma nueva desde cero. Necesita menos errores costosos en producción, entornos claros y automatización que alguien de tu equipo pueda mantener.",
-      catalogTitle: "Mapa de capacidades",
+        "La mayoria no necesita rehacer todo. Necesita ordenar las bases cloud, automatizar mejor y reducir errores costosos en produccion.",
+      catalogTitle: "Capacidades técnicas",
       catalogDescription:
-        "De cuentas y conectividad a infraestructura como código, CI/CD, disciplina de costos y bases listas para ML/MLOps: el trabajo técnico que evita que la nube sea un cuello de botella. Detalle orientado a AWS; el mismo criterio aplica en otras nubes donde encaje."
+        "De AWS Organizations y Control Tower a Terraform, CI/CD, IAM, VPC, ECS, EKS, Lambda e incorporacion de cuentas: trabajo tecnico que evita que la nube se vuelva un cuello de botella."
     },
     aboutPage: {
-      eyebrow: "Sobre nosotros",
-      title: "Implementamos. No nos quedamos solo en recomendaciones.",
+      eyebrow: "Enfoque",
+      title: "Una firma boutique de AWS y DevOps con experiencia real de implementacion.",
       description:
-        "GuatCloud trabaja con equipos en nube pública que necesitan entornos más claros, configuraciones base más sanas y herramientas de entrega para la siguiente etapa de crecimiento. No nos amarramos a un proveedor en el discurso; donde más profundizamos hoy es en AWS.",
+        "GuatCloud es una consultora fundada por Jacobo Gonzalez para ayudar a equipos que necesitan ejecutar mejor en AWS, no solo recibir recomendaciones.",
       storyTitle: "Nuestra forma de trabajar",
       storyParagraphs: [
-        "Somos un equipo pequeño y senior, no una fábrica de diapositivas. Lo central son cuentas en la nube, rutas de red, Terraform, CI/CD y el detalle operativo que define si tus publicaciones son predecibles (hoy la mayor parte del tiempo es AWS).",
-        "Sede en Guatemala; trabajo remoto en las Américas. Documentación clara, pros y contras explícitos y traspaso pensado para que no dependas de un solo contratista para mantener el servicio arriba."
+        "GuatCloud es una firma liderada por su fundador, pero pensada como empresa, no como portafolio personal. El trabajo gira alrededor de cuentas AWS, Control Tower, Organizations, Terraform, IAM, networking, CI/CD y la operacion que sostiene ambientes reales.",
+        "La practica nace desde Guatemala y trabaja de forma remota con equipos en la region y Norteamerica. El enfoque es practico: cambios en cuentas, modulos, pipelines y configuracion, con documentacion y traspaso para que el cliente pueda seguir operando."
       ],
       principlesTitle: "Principios",
       principles: [
@@ -316,28 +316,28 @@ export const dictionaries: Record<Locale, Dictionary> = {
             "La plataforma y la automatización deberían dar velocidad el próximo trimestre, no un proyecto de limpieza al año siguiente."
         }
       ],
-      fitTitle: "Encaja mejor si",
+      fitTitle: "Donde generamos mas valor",
       fitItems: [
-        "Tu empresa necesita experiencia senior en AWS y plataforma antes de contratar un equipo de plataforma completo.",
-        "Tu negocio está ordenando cómo encajan la nube, los despliegues y quién es dueño de la infraestructura.",
-        "Tu área de producto necesita endurecimiento, documentación y alineación de la capa cloud con cómo publican los ingenieros.",
-        "Estás en Guatemala o Centroamérica y quieres un aliado regional bilingüe con el listón de ingeniería de un equipo remoto de primer nivel."
+        "Startups que necesitan experiencia senior en AWS y DevOps antes de formar un equipo interno de plataforma.",
+        "Pymes y fintechs que estan ordenando entornos multi-account, accesos, pipelines y responsabilidad de infraestructura.",
+        "Equipos de producto que necesitan mejorar despliegues, seguridad cloud y mantenibilidad sin frenar entregas.",
+        "Organizaciones que valoran una consultora tecnica bilingue en la region, con overlap hacia EE. UU. y trabajo real de implementacion."
       ]
     },
     contactPage: {
       eyebrow: "Contacto",
-      title: "Cuéntanos qué está fallando, qué va lento o qué falta por definir.",
+      title: "Contanos que necesita hoy tu entorno cloud.",
       description:
-        "AWS, Terraform, CI/CD, ingeniería de plataforma o infraestructura para ML/MLOps: comparte contexto y te respondemos con sinceridad sobre encaje, orden aproximado de trabajo y un resultado razonable.",
+        "Si necesitas apoyo en AWS, Terraform, CI/CD, seguridad cloud, modernizacion o incorporacion de cuentas, revisamos contexto, encaje y siguiente paso.",
       detailsTitle: "Canales directos",
       detailsDescription:
-        "Formulario para el primer contacto, o correo si ya tienes alcance, propuesta o requisitos armados.",
+        "Usa el formulario para una primera conversacion, o escribe por correo si ya tienes alcance, prioridades o requisitos definidos.",
       emailLabel: "Correo",
       calendarLabel: "Agenda",
       calendarValue: "Coordinamos por correo; indica en el mensaje algunas franjas horarias que te funcionen.",
       availabilityLabel: "Disponibilidad",
       availabilityValue:
-        "Proyectos de alcance fijo y acompañamiento continuo. Zona horaria base Guatemala (UTC-6), con flexibilidad para horarios de EE. UU. y otras Américas."
+        "Proyectos por alcance definido y acompanamiento continuo. Zona horaria base Guatemala (UTC-6), con flexibilidad para equipos en Centroamerica y Norteamerica."
     },
     form: {
       name: "Nombre",
@@ -373,7 +373,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       coverageLabel: "Alcance",
       contactLabel: "Contacto",
       description:
-        "Ingeniería de plataforma, Terraform, CI/CD y zonas de aterrizaje (con fuerte foco en AWS) para equipos que quieren operar la nube con confianza.",
+        "AWS, Terraform, CI/CD y bases seguras para equipos que necesitan una base cloud mas clara, estable y mantenible.",
       basedIn:
         "Guatemala · Remoto en Centroamérica y Norteamérica.",
       responseTime: "Por lo general respondemos en ~1 día hábil."
@@ -383,45 +383,45 @@ export const dictionaries: Record<Locale, Dictionary> = {
         step: "01",
         title: "Descubrir",
         description:
-          "Levantamos tu estado en la nube (hoy suele ser mucho AWS), dolores concretos y qué sería “mejor” para tu equipo."
+          "Revisamos cuentas, red, IAM, Terraform, pipelines y dolores operativos para entender donde esta el mayor riesgo o desorden."
       },
       {
         step: "02",
         title: "Planificar",
         description:
-          "Ordenamos el trabajo por riesgo e impacto: qué corrige más con menos vaivén."
+          "Definimos un plan por fases con prioridades claras: bases cloud, automatizacion, seguridad, despliegues o modernizacion."
       },
       {
         step: "03",
         title: "Implementar",
         description:
-          "Implementamos en tus repositorios y cuentas, con revisiones donde participan tus ingenieros."
+          "Implementamos dentro de tus cuentas y repositorios con cambios reales en Terraform, IAM, pipelines, servicios y configuracion."
       },
       {
         step: "04",
         title: "Estabilizar",
         description:
-          "Endurecemos, documentamos y traspasamos responsabilidad para que el día a día en operaciones sea aburrido a propósito."
+          "Cerramos con endurecimiento, documentacion y handoff para que el equipo pueda operar con menos dependencia y menos sorpresas."
       }
     ],
     why: [
       {
         icon: Waypoints,
-        title: "Construimos en tu código y en la nube, no solo aconsejamos",
+        title: "Experiencia real en AWS multi-account y bases cloud",
         description:
-          "Los cambios llegan como pull requests, pipelines y recursos reales. Si algo no tiene dueño claro en producción, no lo damos por terminado."
+          "Hemos trabajado con AWS Organizations, Control Tower, incorporacion de cuentas, redes, IAM y entornos que necesitan estructura desde la base."
       },
       {
         icon: Network,
-        title: "Reuniones en horario de EE. UU.; idioma el que prefiera el equipo",
+        title: "Automatizacion y entrega pensadas para mantenerse",
         description:
-          "Estamos en Ciudad de Guatemala (UTC-6), así que suele encajar con equipos en Estados Unidos. El nivel de trabajo es el de consultoría senior en plataforma e infraestructura, no entregas genéricas."
+          "Terraform, GitHub Actions, Bitbucket Pipelines, CodePipeline y CodeDeploy se implementan con foco en repetibilidad, seguridad y velocidad de entrega."
       },
       {
         icon: Blocks,
-        title: "Al terminar, tu equipo sabe mantener lo desplegado",
+        title: "Seguridad, operacion y modernizacion con criterio practico",
         description:
-          "Dejamos procedimientos por escrito, aclaramos quién es responsable de cada parte de la infraestructura automatizada y hacemos traspaso para que puedan operar solos el día siguiente."
+          "Desde OIDC, accesos cross-account y boundaries hasta optimizacion de costos, modernizacion y entornos listos para Bedrock, el enfoque es siempre operativo y concreto."
       }
     ],
     services: [
@@ -431,11 +431,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         partnerLabel: "AWS",
         title: "Consultoría AWS",
         description:
-          "Zonas de aterrizaje, conectividad y servicios base para entornos AWS que tienen que crecer sin depender del conocimiento en la cabeza de una sola persona.",
+          "Diseno e implementacion de entornos AWS con estructura real: multi-account, Control Tower, Organizations, incorporacion de cuentas y servicios base listos para crecer.",
         bullets: [
-          "Diseño multi‑cuenta y patrones por entorno",
-          "Redes, IAM y servicios base conectados a tus cargas de trabajo",
-          "Adopción y migraciones con pasos que permiten retroceder si hace falta"
+          "Estrategia multi-account, account factory e incorporacion de nuevas cuentas",
+          "Networking, IAM, VPC y servicios base conectados a tus cargas de trabajo",
+          "Adopcion, migraciones y modernizacion con pasos controlados"
         ]
       },
       {
@@ -443,11 +443,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.devopsPlatformEngineering,
         title: "DevOps e ingeniería de plataforma",
         description:
-          "Plataformas para desarrolladores y canales de entrega que aceleran publicaciones sin el cuento del “equipo de plataforma de diez personas”.",
+          "Mejoras de plataforma para que ingenieria publique con menos friccion y mas consistencia, sin sobrecargar al equipo con procesos innecesarios.",
         bullets: [
-          "Flujos de despliegue, límites sanos y caminos preferidos que los desarrolladores sí usan",
-          "Consistencia entre desarrollo, pruebas y producción sin copiar y pegar",
-          "Herramientas compartidas y estándares para entregar en la nube"
+          "Estandares operativos, entornos consistentes y mejores caminos de despliegue",
+          "Integracion entre infraestructura, entrega y experiencia del equipo",
+          "Tooling compartido para operar AWS con menos deuda operativa"
         ]
       },
       {
@@ -455,11 +455,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.infrastructureAsCode,
         title: "Infraestructura como código",
         description:
-          "Terraform que se lee como software: módulos, disciplina de estado y revisiones para que los cambios de infraestructura sean predecibles y auditables.",
+          "Terraform orientado a produccion: modulos reutilizables, composicion por entorno, control de cambios y una base que se pueda mantener de verdad.",
         bullets: [
-          "Estructura de módulos, estado remoto y composición por entorno",
-          "Rescate o refactor de operación a clics y scripts sueltos",
-          "Gobierno vía pull requests: quién aprueba qué y cómo detectar desvíos antes de que duela"
+          "Modulos reutilizables y estructuras por entorno",
+          "Refactor de click-ops y scripts sueltos hacia IaC auditable",
+          "Flujos de revision y control para cambios de infraestructura"
         ]
       },
       {
@@ -467,11 +467,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.cicdAutomation,
         title: "Automatización CI/CD",
         description:
-          "Pipelines que vuelven rutinarias las publicaciones: retroalimentación rápida, promociones seguras y caminos de reversión en los que el equipo confía.",
+          "Pipelines de build, test y deploy que reducen friccion, mejoran la confiabilidad de las publicaciones y dejan un proceso mas claro para el equipo.",
         bullets: [
-          "Pipelines de compilación, prueba y despliegue ajustados a tus tecnologías",
-          "Automatización de publicaciones, despliegues canario y preparación para reversión",
-          "Endurecimiento: secretos, mínimo privilegio y manejo de pruebas inestables"
+          "GitHub Actions, Bitbucket Pipelines, CodePipeline y CodeDeploy",
+          "Automatizacion de releases, promociones seguras y rollback readiness",
+          "Integracion con secretos, permisos y controles operativos"
         ]
       },
       {
@@ -479,11 +479,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.cloudSecurityFoundations,
         title: "Bases de seguridad en la nube",
         description:
-          "Controles base para equipos que van rápido: identidad sólida, configuración observable y menos aristas filosas en producción.",
+          "Controles base de seguridad para AWS con foco en identidad, accesos, boundaries y configuraciones que reduzcan riesgo sin bloquear entregas.",
         bullets: [
-          "Diseño de IAM, mínimo privilegio y revisiones periódicas de acceso",
-          "Secretos, registros e higiene de configuración",
-          "Límites que reducen el radio de daño sin frenar las entregas"
+          "IAM roles, boundaries, least privilege y revisiones de acceso",
+          "OIDC federation, cross-account access y patrones de acceso seguros",
+          "Secretos, observabilidad y guardrails fundamentales"
         ]
       },
       {
@@ -491,11 +491,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.costOptimization,
         title: "Optimización de costos",
         description:
-          "Visibilidad del gasto y ajustes sin sacrificar latencia ni confiabilidad por una factura que solo se ve bonita en el papel.",
+          "Trabajo de costos con criterio operativo: reducir desperdicio, ordenar uso de recursos y mejorar visibilidad sin comprometer performance.",
         bullets: [
-          "Revisión de uso y reservas con contexto de ingeniería",
-          "Tamaño adecuado y limpieza de entornos (no solo máquinas más pequeñas)",
-          "Señales de presupuesto alineadas a cómo el equipo planea capacidad"
+          "Revision de gasto con contexto tecnico y no solo financiero",
+          "Right-sizing, limpieza de entornos y mejoras de arquitectura",
+          "Mejor visibilidad para decisiones de capacidad y presupuesto"
         ]
       },
       {
@@ -503,11 +503,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.cloudModernization,
         title: "Modernización cloud",
         description:
-          "Refactorizaciones graduales para equipos atrapados en patrones frágiles, guías manuales o despliegues que dependen de un héroe del momento.",
+          "Modernizacion gradual para equipos atrapados en entornos fragiles, procesos manuales o workflows de despliegue que ya no escalan.",
         bullets: [
-          "Ordenar entornos heredados y responsabilidades poco claras",
-          "Plan de migración con cortes y validaciones realistas",
-          "Operación más estándar para que la guardia deje de ser deporte de riesgo"
+          "Limpieza de entornos heredados y responsabilidades confusas",
+          "Migraciones y cambios por fases con validaciones realistas",
+          "Estandarizacion operativa para reducir riesgo diario"
         ]
       },
       {
@@ -515,44 +515,44 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.aiReadyInfrastructure,
         title: "Infraestructura para ML y MLOps",
         description:
-          "Bases en AWS para ciencia de datos y ML: rutas de datos seguras, pipelines repetibles de entrenamiento y despliegue, y servicio de modelos que tu equipo de plataforma puede operar.",
+          "Infraestructura en AWS preparada para cargas cercanas a IA: rutas de datos seguras, permisos claros y entornos listos para Bedrock y flujos de ML.",
         bullets: [
-          "Límites de red e IAM para datos, notebooks y artefactos de modelos",
-          "Patrones de CI/CD para trabajos de entrenamiento, imágenes y promoción de modelos",
-          "Integración con seguimiento de experimentos, registros y endpoints de inferencia sin cajas negras"
+          "IAM, red y boundaries para datos, notebooks y artefactos de modelos",
+          "Pipelines repetibles para entrenamiento, imagenes y promocion",
+          "Bases listas para Bedrock y nuevos workloads de IA"
         ]
       }
     ]
   },
   en: {
     localeLabel: "EN",
-    brandTagline: "Platform · DevOps · MLOps",
+    brandTagline: "AWS · Terraform · CI/CD",
     meta: {
       home: {
-        title: "GuatCloud | Cloud platform, DevOps & MLOps",
+        title: "GuatCloud | AWS, Terraform and CI/CD for growing teams",
         description:
-          "DevOps, MLOps, IaC, and networking for public cloud teams. Vendor-neutral patterns where they help; deepest hands-on delivery on AWS (landing zones, Terraform, CI/CD)."
+          "AWS and DevOps consulting for teams that need multi-account AWS, Terraform, CI/CD, and secure cloud foundations that actually hold up in production."
       },
       services: {
-        title: "GuatCloud | Cloud platform, IaC & CI/CD",
+        title: "GuatCloud | AWS, Terraform and CI/CD services",
         description:
-          "Heavy implementation across platform, networking, Terraform, pipelines, cost and security hygiene, plus modernization. Most deep delivery today is on AWS; we are happy to talk if your stack is different."
+          "AWS, Terraform, CI/CD, cloud security, modernization, and AI-ready infrastructure with a hands-on implementation focus."
       },
       about: {
         title: "About GuatCloud",
         description:
-          "A Guatemala-based cloud practice: platform work, automation, and runbooks your team can own. Vendor-neutral framing where it makes sense; strongest depth on AWS."
+          "A boutique AWS and DevOps consulting firm focused on implementation, automation, and cloud environments your team can keep operating."
       },
       contact: {
         title: "Contact GuatCloud",
         description:
-          "Cloud platform, Terraform, CI/CD, ML/MLOps infrastructure: share context (AWS or another cloud). We reply with fit, priorities, and what good would look like."
+          "Let’s talk about AWS, Terraform, CI/CD, cloud security, modernization, or AI-ready infrastructure."
       }
     },
     nav: {
       home: "Home",
       services: "Services",
-      about: "About",
+      about: "Approach",
       contact: "Contact",
       consultation: "Book a consultation",
       switchLanguage: "Switch language",
@@ -563,44 +563,44 @@ export const dictionaries: Record<Locale, Dictionary> = {
       terms: "Terms"
     },
     home: {
-      eyebrow: "Cloud platform · IaC · CI/CD",
-      title: "Cloud infrastructure your team can run after we leave.",
+      eyebrow: "AWS · Terraform · CI/CD",
+      title: "Well-built AWS infrastructure for teams in growth mode.",
       description:
-        "We design environments, networking, and delivery pipelines on public clouds for teams that have outgrown ad-hoc setups. Fewer surprises in prod, cleaner releases, honest tradeoffs. Our deepest hands-on work today is AWS; architecture thinking stays cloud-agnostic where it should.",
+        "GuatCloud helps startups, SMBs, and product teams design, automate, secure, and improve AWS environments with real work in accounts, Terraform, and delivery pipelines.",
       primaryCta: "Book a consultation",
       secondaryCta: "View services",
-      highlightsTitle: "A strong match when",
+      highlightsTitle: "Best fit when",
       highlights: [
-        "You want architecture and automation shaped around how your engineers actually ship",
-        "Terraform and CI/CD have to stay readable six months from now, not just on day one",
-        "You need direct answers on security, spend, and reliability, not another generic cloud strategy memo"
+        "Your AWS environment needs better structure across accounts, access, environments, and deployments",
+        "Terraform, CI/CD, and automation exist, but they are brittle or difficult to maintain",
+        "You want technical help that implements inside your environment, not advice only"
       ],
       heroCardLead: "Three reasons teams bring us in.",
       valueEyebrow: "How we work",
-      valueTitle: "Work that ships to prod, not a PDF.",
+      valueTitle: "Real implementation in accounts, repositories, and pipelines.",
       valueDescription:
-        "We spend time in accounts, VPCs, pipelines, and on-call realities: the layer that decides whether releases stay boring in the right way.",
+        "We work on the layer that most affects daily operations: AWS Organizations, Control Tower, Terraform, IAM, networking, CI/CD, and clear technical handoff.",
       valueItems: [
         {
-          title: "Cloud with an operator’s mindset (deep on AWS)",
+          title: "AWS multi-account foundations",
           description:
-            "Landing zones, connectivity, and services aligned to how your app and data actually move, not a pretty reference diagram alone. Most of our hands-on delivery is AWS today; the same principles apply on other serious clouds."
+            "We design accounts, onboarding, guardrails, networking, and access so AWS grows with structure instead of manual exceptions."
         },
         {
-          title: "Automation you will not regret",
+          title: "Maintainable Terraform and delivery",
           description:
-            "Terraform and CI/CD structured so the next engineer can change them without a archaeology project."
+            "We build reusable modules, pipelines, and deployment flows your team can continue operating after the engagement."
         },
         {
-          title: "Plain-spoken technical judgment",
+          title: "Security and operations with practical judgment",
           description:
-            "We spell out cost, risk, and velocity tradeoffs so your leads can decide with numbers and context, not slogans."
+            "We translate IAM, OIDC, cross-account access, cost, and operational improvements into clear decisions instead of vague theory."
         }
       ],
       servicesEyebrow: "Services",
-      servicesTitle: "What we do most often",
+      servicesTitle: "Core capabilities",
       servicesDescription:
-        "High-impact platform glue, IaC, and delivery automation; AWS is where we log the most hours and where the catalog is most specific. Below: security, cost, modernization, ML-ready infrastructure, and explicit AWS consulting.",
+        "AWS, Terraform, CI/CD, cloud security, modernization, and AI-ready environments, all delivered with a practical implementation mindset.",
       featuredServiceSlugs: [
         "aws-consulting",
         "devops-platform-engineering",
@@ -608,52 +608,52 @@ export const dictionaries: Record<Locale, Dictionary> = {
         "cicd-automation"
       ],
       servicesViewAllCta: "See full service catalog",
-      whyEyebrow: "Why GuatCloud",
-      whyTitle: "Three straightforward commitments.",
+      whyEyebrow: "Approach",
+      whyTitle: "Hands-on experience in the layer that keeps production running.",
       whyDescription:
-        "We do the hands-on work in your accounts and repositories (often AWS-heavy today). You can meet in hours that work for U.S. teams, in English or Spanish. When the engagement ends, your engineers can keep operating what we built without us.",
+        "GuatCloud is built around real AWS and DevOps work: multi-account environments, Terraform, networking, CI/CD, baseline security, modernization, and operations.",
       processEyebrow: "Process",
       processTitle: "How engagements run",
       processDescription:
-        "We map the current state, sequence the riskiest gaps first, implement with your engineers in the loop, then stabilize and hand off.",
+        "We start by understanding the current environment, prioritize what matters most, implement inside your stack, and close with stabilization and handoff.",
       finalEyebrow: "Next step",
-      finalTitle: "Ready to tighten up your cloud platform?",
+      finalTitle: "Ready to review what your AWS environment needs now?",
       finalDescription:
-        "Tell us what is breaking, slow, or scary. If the work is a good mutual fit, we align on scope, sequencing, and ownership before touching production.",
+        "If accounts, IAM, Terraform, CI/CD, deployments, or cloud security are creating friction, let’s talk. We can review context, priorities, and the next sensible technical step.",
       finalPrimary: "Book a consultation",
       finalSecondary: "Browse services",
-      capabilityStrip: "DevOps · MLOps · Network engineering",
+      capabilityStrip: "AWS foundations · Terraform · Delivery systems",
       heroDiagram: {
-        band: "PLATFORM LAYER",
-        col1Title: "DEVOPS",
-        col1Sub: "CI/CD · IaC",
-        col2Title: "MLOPS",
-        col2Sub: "data · models",
-        col3Title: "NETWORK",
-        col3Sub: "VPC · hybrid"
+        band: "CLOUD FOUNDATION",
+        col1Title: "AWS",
+        col1Sub: "accounts · IAM",
+        col2Title: "IAC",
+        col2Sub: "Terraform · modules",
+        col3Title: "CI/CD",
+        col3Sub: "build · deploy"
       }
     },
     servicesPage: {
       eyebrow: "Services",
-      title: "Infrastructure and delivery engineering in the cloud.",
+      title: "AWS and DevOps services for teams that need a more serious cloud foundation.",
       description:
-        "Terraform, pipelines, networking, and security baselines with a bias toward implementation. We pick battles that unblock delivery and reduce operational debt. AWS is our primary expertise; reach out if your landing zone is elsewhere.",
-      sideTitle: "What we optimize for",
+        "GuatCloud works on AWS accounts, Terraform, pipelines, security, cost, and modernization with a bias toward real implementation and durable improvement.",
+      sideTitle: "What we solve",
       sideDescription:
-        "Most teams do not need a greenfield platform. They need fewer footguns in prod, clearer environments, and automation that someone internal can maintain.",
-      catalogTitle: "Capability map",
+        "Most teams do not need a full rebuild. They need better foundations, stronger automation, and fewer costly mistakes in production.",
+      catalogTitle: "Technical capabilities",
       catalogDescription:
-        "From accounts and connectivity to IaC, CI/CD, FinOps-style discipline, and ML/MLOps-ready foundations: the technical work that keeps cloud from becoming a bottleneck. Service detail is AWS-oriented; the same judgment applies on other clouds when there is a fit."
+        "From AWS Organizations and Control Tower to Terraform, CI/CD, IAM, VPC design, ECS, EKS, Lambda, and account onboarding: the technical work that keeps cloud from becoming a bottleneck."
     },
     aboutPage: {
-      eyebrow: "About",
-      title: "We build. We do not stop at recommendations.",
+      eyebrow: "Approach",
+      title: "A boutique AWS and DevOps firm with real implementation depth.",
       description:
-        "GuatCloud partners with public cloud teams that need sharper environments, safer defaults, and delivery tooling they can own for the next growth phase. We do not anchor the practice to one vendor in principle; our deepest bench strength is AWS.",
+        "GuatCloud was created by Jacobo Gonzalez to help teams execute better in AWS, not just receive recommendations.",
       storyTitle: "The practice",
       storyParagraphs: [
-        "This is a small, senior-led consulting practice, not a deck mill. Engagements center on cloud accounts, network paths, Terraform, CI/CD, and the operational detail that determines whether releases stay predictable (most client time today is AWS).",
-        "Headquartered in Guatemala, we work remotely across the Americas. Expect crisp documentation, explicit tradeoffs, and handoffs structured so you are not dependent on one external name to keep the lights on."
+        "GuatCloud is founder-led, but built to operate as a real consulting company rather than a personal portfolio. Engagements center on AWS accounts, Control Tower, Organizations, Terraform, IAM, networking, CI/CD, and the operational detail that keeps environments stable.",
+        "Based in Guatemala, we work remotely with teams across the region and North America. The model is hands-on: changes in accounts, modules, pipelines, and configuration, with documentation and handoff so the client can keep operating."
       ],
       principlesTitle: "Principles",
       principles: [
@@ -673,28 +673,28 @@ export const dictionaries: Record<Locale, Dictionary> = {
             "Platform and automation choices should speed the team up next quarter, not create a cleanup project next year."
         }
       ],
-      fitTitle: "You will get the most leverage if",
+      fitTitle: "Where we add the most value",
       fitItems: [
-        "You are a startup that needs senior AWS and platform help before hiring a full internal platform org.",
-        "You are an SMB modernizing how cloud, deployments, and infrastructure ownership work together.",
-        "You are a product org that needs the cloud layer hardened, documented, and aligned with how engineers ship.",
-        "You are in Guatemala or Central America and want a bilingual partner in-region with engineering standards you would expect from a top-tier remote team."
+        "Startups that need senior AWS and DevOps experience before building a full internal platform team.",
+        "SMBs and fintechs bringing order to multi-account AWS, access patterns, pipelines, and infrastructure ownership.",
+        "Product teams that need better deployments, stronger cloud security, and more maintainable delivery systems without slowing engineering down.",
+        "Organizations that want a bilingual regional consulting partner with U.S. overlap and real implementation depth."
       ]
     },
     contactPage: {
       eyebrow: "Contact",
-      title: "Tell us what is on fire, slow, or undefined.",
+      title: "Tell us what your cloud environment needs now.",
       description:
-        "AWS, Terraform, CI/CD, platform engineering, or ML/MLOps infrastructure: share context and we will respond with honest fit, rough sequencing, and what good would look like.",
+        "If you need help with AWS, Terraform, CI/CD, cloud security, modernization, or account onboarding, we can review context, fit, and the next sensible step.",
       detailsTitle: "Direct lines",
       detailsDescription:
-        "Use the form for a first conversation, or email if you already have a statement of work or RFP in mind.",
+        "Use the form for an initial conversation, or email directly if you already have scope, priorities, or requirements in mind.",
       emailLabel: "Email",
       calendarLabel: "Scheduling",
       calendarValue: "We coordinate by email; drop a few windows that work for you in the message.",
       availabilityLabel: "Availability",
       availabilityValue:
-        "Fixed-scope projects and ongoing support. Home time zone: Guatemala (UTC-6), flexible for U.S. and other Americas hours."
+        "Fixed-scope projects and ongoing support. Base time zone: Guatemala (UTC-6), with flexibility for Central America and North America."
     },
     form: {
       name: "Name",
@@ -731,7 +731,7 @@ export const dictionaries: Record<Locale, Dictionary> = {
       coverageLabel: "Coverage",
       contactLabel: "Contact",
       description:
-        "Platform engineering, Terraform, CI/CD, and landing zones (strong on AWS) for teams that want cloud they can operate with confidence.",
+        "AWS, Terraform, CI/CD, and secure foundations for teams that need a cloud environment that is clearer, more stable, and easier to operate.",
       basedIn: "Guatemala · Remote across Central and North America.",
       responseTime: "We usually reply within one business day."
     },
@@ -739,42 +739,42 @@ export const dictionaries: Record<Locale, Dictionary> = {
       {
         step: "01",
         title: "Discover",
-        description: "Map the cloud estate (often AWS today), pain points, and what “better” means for your team."
+        description: "Review accounts, networking, IAM, Terraform, pipelines, and operational pain points to identify where risk and disorder are highest."
       },
       {
         step: "02",
         title: "Plan",
-        description: "Sequence work by risk and leverage: what fixes the most with the least thrash."
+        description: "Define a phased plan with clear priorities across foundations, automation, security, deployments, or modernization."
       },
       {
         step: "03",
         title: "Ship",
-        description: "Implement in your repos and accounts, with reviews your engineers participate in."
+        description: "Implement directly in your accounts and repositories with real changes across Terraform, IAM, pipelines, services, and configuration."
       },
       {
         step: "04",
         title: "Stabilize",
-        description: "Harden, document, and transfer ownership so day-two operations are boring on purpose."
+        description: "Close with hardening, documentation, and handoff so the team can operate with less dependency and fewer surprises."
       }
     ],
     why: [
       {
         icon: Waypoints,
-        title: "We build in your repos and cloud, not just advise",
+        title: "Real experience with AWS multi-account and cloud foundations",
         description:
-          "Changes land as real pull requests, pipelines, and infrastructure. If nothing in production has a clear owner, we do not call the work done."
+          "We have worked with AWS Organizations, Control Tower, account onboarding, networking, IAM, and environments that need structure from the base layer up."
       },
       {
         icon: Network,
-        title: "U.S.-friendly meeting hours; language your team prefers",
+        title: "Automation and delivery systems built to last",
         description:
-          "We are in Guatemala City (UTC-6), which usually lines up with U.S. business hours. Expect senior platform and infrastructure consulting quality—not vague slide decks."
+          "Terraform, GitHub Actions, Bitbucket Pipelines, CodePipeline, and CodeDeploy are implemented with repeatability, security, and delivery speed in mind."
       },
       {
         icon: Blocks,
-        title: "When we leave, your team can run what we shipped",
+        title: "Security, operations, and modernization with practical judgment",
         description:
-          "We leave written runbooks, spell out who owns each part of the automated infrastructure, and transfer knowledge so you can operate on your own the next day."
+          "From OIDC, cross-account access, and security boundaries to cost optimization, modernization, and Bedrock-ready environments, the work stays operational and concrete."
       }
     ],
     services: [
@@ -784,11 +784,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         partnerLabel: "AWS",
         title: "AWS Consulting",
         description:
-          "Landing-zone thinking, connectivity, and service configuration for AWS estates that have to scale without turning into tribal knowledge.",
+          "AWS environment design and implementation with real structure: multi-account setups, Control Tower, Organizations, account onboarding, and core services ready to scale.",
         bullets: [
-          "Multi-account structure and environment patterns",
-          "Networking, IAM, and core services wired for your workloads",
-          "Migration and adoption support with rollback-friendly steps"
+          "Multi-account strategy, account factory style workflows, and new account onboarding",
+          "Networking, IAM, VPC design, and core services aligned to workload needs",
+          "Cloud adoption, migrations, and modernization with controlled rollout steps"
         ]
       },
       {
@@ -796,11 +796,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.devopsPlatformEngineering,
         title: "DevOps & Platform Engineering",
         description:
-          "Internal developer platforms and delivery rails that speed up shipping without inventing a heavyweight “platform team of ten” fantasy.",
+          "Platform improvements that help engineering ship with less friction and more consistency, without adding unnecessary process overhead.",
         bullets: [
-          "Deployment workflows, guardrails, and golden paths developers actually use",
-          "Consistency across dev, staging, and prod without copy-paste drift",
-          "Shared tooling and standards for cloud delivery"
+          "Operational standards, consistent environments, and better deployment paths",
+          "Alignment between infrastructure, delivery workflows, and developer experience",
+          "Shared tooling for operating AWS with less operational debt"
         ]
       },
       {
@@ -808,11 +808,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.infrastructureAsCode,
         title: "Infrastructure as Code",
         description:
-          "Terraform that reads like software: modules, state discipline, and review flows so infra changes are boring and auditable.",
+          "Production-minded Terraform with reusable modules, environment composition, reviewable change control, and foundations that stay maintainable.",
         bullets: [
-          "Module layout, remote state, and environment composition",
-          "Rescuing or refactoring click-ops and one-off scripts",
-          "PR-based governance: who approves what, and how drift gets caught"
+          "Reusable modules and environment-oriented structure",
+          "Refactoring click-ops and ad hoc scripts into auditable IaC",
+          "Review and control flows for infrastructure changes"
         ]
       },
       {
@@ -820,11 +820,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.cicdAutomation,
         title: "CI/CD Automation",
         description:
-          "Pipelines that make releases routine: fast feedback, safe promotions, and rollback paths people trust enough to use.",
+          "Build, test, and deployment pipelines that reduce friction, improve release confidence, and leave the team with a clearer delivery process.",
         bullets: [
-          "Build, test, and deploy pipelines tuned to your stack",
-          "Release automation, canaries, and rollback readiness",
-          "Hardening: secrets, least privilege, and flaky-test triage"
+          "GitHub Actions, Bitbucket Pipelines, CodePipeline, and CodeDeploy",
+          "Release automation, safe promotions, and rollback readiness",
+          "Integration with secrets, permissions, and operational controls"
         ]
       },
       {
@@ -832,11 +832,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.cloudSecurityFoundations,
         title: "Cloud Security Foundations",
         description:
-          "Baseline controls that match how fast-moving teams work: strong identity, observable configs, and fewer sharp edges in prod.",
+          "Baseline AWS security controls focused on identity, access, boundaries, and configurations that reduce risk without blocking delivery.",
         bullets: [
-          "IAM layout, least privilege, and periodic access review",
-          "Secrets, logging, and configuration hygiene",
-          "Guardrails that reduce accident blast radius without blocking delivery"
+          "IAM roles, boundaries, least privilege, and access review",
+          "OIDC federation, cross-account access, and secure access patterns",
+          "Secrets, observability, and foundational guardrails"
         ]
       },
       {
@@ -844,11 +844,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.costOptimization,
         title: "Cost Optimization",
         description:
-          "Spend visibility and tuning that does not sacrifice latency or reliability for a short-term line on the bill.",
+          "Cost work with operational judgment: reduce waste, clean up usage, and improve visibility without trading away performance.",
         bullets: [
-          "Usage and reservation review with engineering context",
-          "Right-sizing and environment hygiene (not just smaller instances)",
-          "Budget signals wired into how teams plan capacity"
+          "Spend review with engineering context, not finance-only reporting",
+          "Right-sizing, environment cleanup, and architectural improvements",
+          "Better visibility for planning capacity and budget decisions"
         ]
       },
       {
@@ -856,11 +856,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.cloudModernization,
         title: "Cloud Modernization",
         description:
-          "Incremental refactors for teams stuck on brittle patterns, manual runbooks, or “we deploy when someone is brave enough.”",
+          "Incremental modernization for teams stuck with brittle environments, manual processes, or delivery workflows that no longer scale.",
         bullets: [
-          "Untangling legacy environments and unclear ownership",
-          "Migration planning with realistic cutover and validation",
-          "Standardizing operations so on-call stops being a hero sport"
+          "Cleaning up legacy environments and unclear ownership",
+          "Migration and change plans with realistic validation steps",
+          "Operational standardization to reduce day-to-day risk"
         ]
       },
       {
@@ -868,11 +868,11 @@ export const dictionaries: Record<Locale, Dictionary> = {
         icon: sharedServices.aiReadyInfrastructure,
         title: "ML & MLOps Infrastructure",
         description:
-          "AWS foundations for data science and ML: secure data paths, repeatable training and deployment pipelines, and serving stacks your platform team can operate.",
+          "AWS infrastructure for AI-adjacent workloads: secure data paths, clear permissions, and environments ready for Bedrock and ML delivery flows.",
         bullets: [
-          "Network and IAM boundaries for data, notebooks, and model artifacts",
-          "CI/CD patterns for training jobs, container images, and model promotion",
-          "Integration points for experiment tracking, registries, and inference endpoints without bolting on mystery boxes"
+          "IAM, networking, and boundaries for data, notebooks, and model artifacts",
+          "Repeatable pipelines for training jobs, images, and promotion flows",
+          "Foundations ready for Bedrock and new AI workloads"
         ]
       }
     ]
