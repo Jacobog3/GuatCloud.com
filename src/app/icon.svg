@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 38 52 42" fill="none">
+  <g transform="translate(15, 20)">
+    <path
+      d="M15,30 A15,15 0 0,1 45,30 A10,10 0 0,1 65,30 A15,15 0 0,1 65,55 L15,55 Z"
+      fill="none"
+      stroke="#FF9900"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <circle cx="25" cy="40" r="4" fill="#FF9900" />
+    <circle cx="45" cy="25" r="4" fill="#FF9900" />
+    <circle cx="55" cy="45" r="4" fill="#FF9900" />
+    <line x1="25" y1="40" x2="45" y2="25" stroke="#FF9900" stroke-width="2" />
+    <line x1="45" y1="25" x2="55" y2="45" stroke="#FF9900" stroke-width="2" />
+  </g>
+</svg>

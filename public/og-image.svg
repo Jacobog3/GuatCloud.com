@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#F0F4F8"/>
+  <rect x="40" y="40" width="1120" height="550" rx="28" fill="white" stroke="#C5D0E0"/>
+  <rect x="80" y="80" width="148" height="148" rx="20" fill="#0C1322"/>
+  <path d="M111 180c0-18.3 14.8-33.1 33.1-33.1h.7c5.5-13.9 19-23.7 34.8-23.7 20.8 0 37.6 16.6 37.6 37.2v.9h1.5c13.9 0 25.3 11.2 25.3 25s-11.3 25-25.3 25H111Z" fill="none" stroke="#FF9900" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="137" cy="178" r="8.5" fill="#FF9900"/>
+  <circle cx="177" cy="145" r="8.5" fill="#FF9900"/>
+  <circle cx="212" cy="186" r="8.5" fill="#FF9900"/>
+  <path d="M137 178 177 145" stroke="#FF9900" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M177 145 212 186" stroke="#FF9900" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="268" y="168" fill="#0B1220" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="58" font-weight="800">GUAT<tspan fill="#FF9900">CLOUD</tspan></text>
+  <text x="268" y="232" fill="#55657A" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="28">AWS consulting and platform engineering</text>
+  <rect x="268" y="268" width="392" height="52" rx="12" fill="#FF9900"/>
+  <text x="302" y="302" fill="#0C1322" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="22" font-weight="700">Cloud consulting and DevOps delivery</text>
+  <rect x="268" y="348" width="720" height="10" rx="4" fill="#FF9900" fill-opacity="0.35"/>
+  <rect x="268" y="368" width="560" height="8" rx="3" fill="#55657A" fill-opacity="0.2"/>
+  <rect x="268" y="420" width="820" height="140" rx="16" fill="#F8FAFC" stroke="#C5D0E0"/>
+  <path d="M292 500h320M452 460v48" stroke="#1D4ED8" stroke-opacity="0.2" stroke-width="3" stroke-linecap="round"/>
+  <rect x="300" y="448" width="88" height="52" rx="8" fill="white" stroke="#C5D0E0"/>
+  <rect x="408" y="448" width="88" height="52" rx="8" fill="white" stroke="#C5D0E0"/>
+  <rect x="516" y="448" width="88" height="52" rx="8" fill="white" stroke="#C5D0E0"/>
+  <text x="80" y="582" fill="#55657A" font-family="IBM Plex Sans, Segoe UI, sans-serif" font-size="24">Guatemala-rooted · DevOps systems · Cloud architecture · AWS delivery</text>
+</svg>

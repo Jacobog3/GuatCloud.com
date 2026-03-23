@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans-stack: "Inter", ui-sans-serif, system-ui, sans-serif;
+  /* Hyperscaler-adjacent dark: cool slate base (AWS/Azure/GCP console vibe) */
+  --color-background: #0c1117;
+  --color-foreground: #e6edf3;
+  --color-surface: #161b22;
+  --color-surface-soft: #1a222d;
+  --color-border: #30363d;
+  --color-muted-foreground: #8b949e;
+  --color-primary: #ff9900;
+  --color-primary-strong: #ffb454;
+  /* Secondary accent: Azure/GCP-style cool blue for UI chrome (not the brand mark) */
+  --color-accent: #58a6ff;
+  --color-network: #3fb950;
+  --color-tierra: #ff9900;
+  --color-panel: #010409;
+  --color-destructive: #fca5a5;
+  --color-success: #3fb950;
+}
+
+@theme inline {
+  --font-sans: var(--font-sans-stack);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 100% 70% at 50% -30%, color-mix(in srgb, var(--color-accent) 9%, transparent), transparent 55%),
+    radial-gradient(ellipse 55% 40% at 100% 0%, color-mix(in srgb, var(--color-primary) 5%, transparent), transparent 45%),
+    linear-gradient(180deg, color-mix(in srgb, var(--color-surface) 35%, transparent), transparent 42%),
+    var(--color-background);
+  color: var(--color-foreground);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 28%, transparent);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-sans-stack);
+  letter-spacing: -0.028em;
+  font-weight: 600;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Typography scale */
+.text-display {
+  font-size: clamp(2.5rem, 5.2vw, 3.75rem);
+  line-height: 1.07;
+  letter-spacing: -0.042em;
+  font-weight: 700;
+}
+
+.text-display-sm {
+  font-size: clamp(1.9rem, 3.1vw, 2.35rem);
+  line-height: 1.12;
+  letter-spacing: -0.034em;
+  font-weight: 700;
+}
+
+.text-title {
+  font-size: clamp(1.22rem, 2vw, 1.5rem);
+  line-height: 1.22;
+  letter-spacing: -0.024em;
+  font-weight: 600;
+}
+
+.text-lead {
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.text-body {
+  font-size: 0.985rem;
+  line-height: 1.72;
+}
+
+.text-body-sm {
+  font-size: 0.925rem;
+  line-height: 1.68;
+}
+
+@media (min-width: 640px) {
+  .text-lead {
+    font-size: 1.125rem;
+    line-height: 1.76;
+  }
+
+  .text-body {
+    font-size: 1rem;
+  }
+
+  .text-body-sm {
+    font-size: 0.9375rem;
+  }
+}
+
+.section-space {
+  padding-block: 4rem;
+}
+
+.section-space-tight {
+  padding-block: 3rem;
+}
+
+/* Product-page style tag (Azure/AWS docs adjacent) */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid color-mix(in srgb, var(--color-accent) 32%, var(--color-border));
+  background: color-mix(in srgb, var(--color-accent) 7%, var(--color-surface));
+  padding: 0.3rem 0.65rem;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--color-foreground) 78%, var(--color-accent));
+}
+
+.capability-strip {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: color-mix(in srgb, var(--color-muted-foreground) 92%, var(--color-accent));
+}
+
+.fine-print {
+  font-size: 0.925rem;
+  line-height: 1.68;
+  color: var(--color-muted-foreground);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--color-foreground) 5%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--color-foreground) 5%, transparent) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.panel-grid {
+  background-image:
+    linear-gradient(
+      to right,
+      color-mix(in srgb, var(--color-accent) 10%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--color-accent) 10%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 22px 22px;
+}
+
+.icon-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--color-surface) 96%, var(--color-accent) 4%);
+  border: 1px solid color-mix(in srgb, var(--color-border) 85%, var(--color-primary) 15%);
+  color: var(--color-primary-strong);
+  box-shadow: none;
+}
+
+.icon-tile-dark {
+  background: linear-gradient(180deg, #161b22, var(--color-panel));
+  border: 1px solid color-mix(in srgb, var(--color-accent) 22%, var(--color-border));
+  color: color-mix(in srgb, white 90%, var(--color-accent));
+  box-shadow: 0 12px 40px -28px rgba(0, 0, 0, 0.65);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.55s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-fade-up,
+  .animate-fade-in {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .section-space {
+    padding-block: 5rem;
+  }
+
+  .section-space-tight {
+    padding-block: 3.5rem;
+  }
+}
